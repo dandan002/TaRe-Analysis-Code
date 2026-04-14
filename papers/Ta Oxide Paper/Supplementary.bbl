@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{shirley_high-resolution_1972}
+D.~A. Shirley,
+\newblock \emph{Phys. Rev. B} \textbf{1972}, \emph{5}, 12 4709.
+
+\bibitem{engelhard_introductory_2020}
+M.~H. Engelhard, D.~R. Baer, A.~Herrera-Gomez, P.~M.~A. Sherwood,
+\newblock \emph{J. Vac. Sci. Technol. A} \textbf{2020}, \emph{38}, 6 063203.
+
+\bibitem{bevington_error_2003}
+P.~R. Bevington, R.~D.~Keith,
+\newblock \emph{Error {Analysis}},
+\newblock McGraw-Hill, 3rd edition, \textbf{2003}.
+
+\bibitem{noauthor_getting_nodate}
+\urlprefix\url{https://lmfit.github.io/lmfit-py/intro.html}.
+
+\bibitem{O2s_cross_section:2022}
+R.~Pugliese, G.~Paolucci,
+\newblock \url{https://vuo.elettra.eu/services/elements/WebElements.html}, last
+  accessed on Sept. 2022.
+
+\bibitem{Himpsel_core_level_shift:1984}
+F.~J. Himpsel, J.~F. Morar, F.~R. McFeely, R.~A. Pollak, G.~Hollinger,
+\newblock \emph{Phys. Rev. B} \textbf{1984}, \emph{30} 7236.
+
+\bibitem{kevin_resonator}
+K.~D. Crowley, R.~A. McLellan, A.~Dutta, N.~Shumiya, A.~P.~M. Place, X.~H. Le,
+  Y.~Gang, T.~Madhavan, N.~Khedkar, Y.~C. Feng, E.~A. Umbarkar, X.~Gui,
+  L.~V.~H. Rodgers, Y.~Jia, M.~M. Feldman, S.~A. Lyon, M.~Liu, R.~J. Cava,
+  A.~A. Houck, N.~P. de~Leon,
+\newblock Disentangling {Losses} in {Tantalum} {Superconducting} {Circuits},
+  \textbf{2023},
+\newblock (Preprint) arXiv:2301.07848, submitted: Jan \textbf{2023}.
+
+\end{thebibliography}

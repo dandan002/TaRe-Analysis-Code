@@ -1,0 +1,5 @@
+results/
+__pycache__/
+tests/__pycache__/
+xrd/__pycache__/
+.env

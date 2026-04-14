@@ -1,0 +1,263 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{kandala_hardware-efficient_2017}
+A.~Kandala, A.~Mezzacapo, K.~Temme, M.~Takita, M.~Brink, J.~M. Chow, J.~M.
+  Gambetta,
+\newblock \emph{Nature} \textbf{2017}, \emph{549}, 7671 242.
+
+\bibitem{corcoles_demonstration_2015}
+A.~D. Córcoles, E.~Magesan, S.~J. Srinivasan, A.~W. Cross, M.~Steffen, J.~M.
+  Gambetta, J.~M. Chow,
+\newblock \emph{Nat. Commun.} \textbf{2015}, \emph{6}, 1 6979.
+
+\bibitem{gong_experimental_2022}
+M.~Gong, X.~Yuan, S.~Wang, Y.~Wu, Y.~Zhao, C.~Zha, S.~Li, Z.~Zhang, Q.~Zhao,
+  Y.~Liu, F.~Liang, J.~Lin, Y.~Xu, H.~Deng, H.~Rong, H.~Lu, S.~C. Benjamin,
+  C.-Z. Peng, X.~Ma, Y.-A. Chen, X.~Zhu, J.-W. Pan,
+\newblock \emph{Natl. Sci. Rev.} \textbf{2022}, \emph{9}, 1 nwab011.
+
+\bibitem{kelly_state_2015}
+J.~Kelly, R.~Barends, A.~G. Fowler, A.~Megrant, E.~Jeffrey, T.~C. White,
+  D.~Sank, J.~Y. Mutus, B.~Campbell, Y.~Chen, Z.~Chen, B.~Chiaro, A.~Dunsworth,
+  I.-C. Hoi, C.~Neill, P.~J.~J. O’Malley, C.~Quintana, P.~Roushan,
+  A.~Vainsencher, J.~Wenner, A.~N. Cleland, J.~M. Martinis,
+\newblock \emph{Nature} \textbf{2015}, \emph{519}, 7541 66.
+
+\bibitem{reed_realization_2012}
+M.~D. Reed, L.~DiCarlo, S.~E. Nigg, L.~Sun, L.~Frunzio, S.~M. Girvin, R.~J.
+  Schoelkopf,
+\newblock \emph{Nature} \textbf{2012}, \emph{482}, 7385 382.
+
+\bibitem{sivak_real-time_2022}
+V.~V. Sivak, A.~Eickbusch, B.~Royer, S.~Singh, I.~Tsioutsios, S.~Ganjam,
+  A.~Miano, B.~L. Brock, A.~Z. Ding, L.~Frunzio, S.~M. Girvin, R.~J.
+  Schoelkopf, M.~H. Devoret, \textbf{2022},
+\newblock (Preprint) arXiv:2211.09116, submitted Nov \textbf{2022}.
+
+\bibitem{mi_time-crystalline_2022}
+X.~Mi, M.~Ippoliti, C.~Quintana, A.~Greene, Z.~Chen, J.~Gross, F.~Arute,
+  K.~Arya, J.~Atalaya, R.~Babbush, J.~C. Bardin, J.~Basso, A.~Bengtsson,
+  A.~Bilmes, A.~Bourassa, L.~Brill, M.~Broughton, B.~B. Buckley, D.~A. Buell,
+  B.~Burkett, N.~Bushnell, B.~Chiaro, R.~Collins, W.~Courtney, D.~Debroy,
+  S.~Demura, A.~R. Derk, A.~Dunsworth, D.~Eppens, C.~Erickson, E.~Farhi, A.~G.
+  Fowler, B.~Foxen, C.~Gidney, M.~Giustina, M.~P. Harrigan, S.~D. Harrington,
+  J.~Hilton, A.~Ho, S.~Hong, T.~Huang, A.~Huff, W.~J. Huggins, L.~B. Ioffe,
+  S.~V. Isakov, J.~Iveland, E.~Jeffrey, Z.~Jiang, C.~Jones, D.~Kafri,
+  T.~Khattar, S.~Kim, A.~Kitaev, P.~V. Klimov, A.~N. Korotkov, F.~Kostritsa,
+  D.~Landhuis, P.~Laptev, J.~Lee, K.~Lee, A.~Locharla, E.~Lucero, O.~Martin,
+  J.~R. McClean, T.~McCourt, M.~McEwen, K.~C. Miao, M.~Mohseni, S.~Montazeri,
+  W.~Mruczkiewicz, O.~Naaman, M.~Neeley, C.~Neill, M.~Newman, M.~Y. Niu, T.~E.
+  O’Brien, A.~Opremcak, E.~Ostby, B.~Pato, A.~Petukhov, N.~C. Rubin, D.~Sank,
+  K.~J. Satzinger, V.~Shvarts, Y.~Su, D.~Strain, M.~Szalay, M.~D. Trevithick,
+  B.~Villalonga, T.~White, Z.~J. Yao, P.~Yeh, J.~Yoo, A.~Zalcman, H.~Neven,
+  S.~Boixo, V.~Smelyanskiy, A.~Megrant, J.~Kelly, Y.~Chen, S.~L. Sondhi,
+  R.~Moessner, K.~Kechedzhi, V.~Khemani, P.~Roushan,
+\newblock \emph{Nature} \textbf{2022}, \emph{601}, 7894 531.
+
+\bibitem{satzinger_realizing_2021}
+K.~J. Satzinger, Y.-J. Liu, A.~Smith, C.~Knapp, M.~Newman, C.~Jones, Z.~Chen,
+  C.~Quintana, X.~Mi, A.~Dunsworth, C.~Gidney, I.~Aleiner, F.~Arute, K.~Arya,
+  J.~Atalaya, R.~Babbush, J.~C. Bardin, R.~Barends, J.~Basso, A.~Bengtsson,
+  A.~Bilmes, M.~Broughton, B.~B. Buckley, D.~A. Buell, B.~Burkett, N.~Bushnell,
+  B.~Chiaro, R.~Collins, W.~Courtney, S.~Demura, A.~R. Derk, D.~Eppens,
+  C.~Erickson, L.~Faoro, E.~Farhi, A.~G. Fowler, B.~Foxen, M.~Giustina,
+  A.~Greene, J.~A. Gross, M.~P. Harrigan, S.~D. Harrington, J.~Hilton, S.~Hong,
+  T.~Huang, W.~J. Huggins, L.~B. Ioffe, S.~V. Isakov, E.~Jeffrey, Z.~Jiang,
+  D.~Kafri, K.~Kechedzhi, T.~Khattar, S.~Kim, P.~V. Klimov, A.~N. Korotkov,
+  F.~Kostritsa, D.~Landhuis, P.~Laptev, A.~Locharla, E.~Lucero, O.~Martin,
+  J.~R. McClean, M.~McEwen, K.~C. Miao, M.~Mohseni, S.~Montazeri,
+  W.~Mruczkiewicz, J.~Mutus, O.~Naaman, M.~Neeley, C.~Neill, M.~Y. Niu, T.~E.
+  O’Brien, A.~Opremcak, B.~Pató, A.~Petukhov, N.~C. Rubin, D.~Sank,
+  V.~Shvarts, D.~Strain, M.~Szalay, B.~Villalonga, T.~C. White, Z.~Yao, P.~Yeh,
+  J.~Yoo, A.~Zalcman, H.~Neven, S.~Boixo, A.~Megrant, Y.~Chen, J.~Kelly,
+  V.~Smelyanskiy, A.~Kitaev, M.~Knap, F.~Pollmann, P.~Roushan,
+\newblock \emph{Science} \textbf{2021}, \emph{374}, 6572 1237.
+
+\bibitem{andersen_observation_2022}
+T.~I. Andersen, Y.~D. Lensky, K.~Kechedzhi, I.~Drozdov, A.~Bengtsson, S.~Hong,
+  A.~Morvan, X.~Mi, A.~Opremcak, R.~Acharya, R.~Allen, M.~Ansmann, F.~Arute,
+  K.~Arya, A.~Asfaw, J.~Atalaya, R.~Babbush, D.~Bacon, J.~C. Bardin,
+  G.~Bortoli, A.~Bourassa, J.~Bovaird, L.~Brill, M.~Broughton, B.~B. Buckley,
+  D.~A. Buell, T.~Burger, B.~Burkett, N.~Bushnell, Z.~Chen, B.~Chiaro, D.~Chik,
+  C.~Chou, J.~Cogan, R.~Collins, P.~Conner, W.~Courtney, A.~L. Crook,
+  B.~Curtin, D.~M. Debroy, A.~D.~T. Barba, S.~Demura, A.~Dunsworth, D.~Eppens,
+  C.~Erickson, L.~Faoro, E.~Farhi, R.~Fatemi, V.~S. Ferreira, L.~F. Burgos,
+  E.~Forati, A.~G. Fowler, B.~Foxen, W.~Giang, C.~Gidney, D.~Gilboa,
+  M.~Giustina, R.~Gosula, A.~G. Dau, J.~A. Gross, S.~Habegger, M.~C. Hamilton,
+  M.~Hansen, M.~P. Harrigan, S.~D. Harrington, P.~Heu, J.~Hilton, M.~R.
+  Hoffmann, T.~Huang, A.~Huff, W.~J. Huggins, L.~B. Ioffe, S.~V. Isakov,
+  J.~Iveland, E.~Jeffrey, Z.~Jiang, C.~Jones, P.~Juhas, D.~Kafri, T.~Khattar,
+  M.~Khezri, M.~Kieferová, S.~Kim, A.~Kitaev, P.~V. Klimov, A.~R. Klots, A.~N.
+  Korotkov, F.~Kostritsa, J.~M. Kreikebaum, D.~Landhuis, P.~Laptev, K.-M. Lau,
+  L.~Laws, J.~Lee, K.~Lee, B.~J. Lester, A.~Lill, W.~Liu, A.~Locharla,
+  E.~Lucero, F.~D. Malone, O.~Martin, J.~R. McClean, T.~McCourt, M.~McEwen,
+  K.~C. Miao, A.~Mieszala, M.~Mohseni, S.~Montazeri, E.~Mount, R.~Movassagh,
+  W.~Mruczkiewicz, O.~Naaman, M.~Neeley, C.~Neill, A.~Nersisyan, M.~Newman,
+  J.~H. Ng, A.~Nguyen, M.~Nguyen, M.~Y. Niu, T.~E. O'Brien, S.~Omonije,
+  A.~Petukhov, R.~Potter, L.~P. Pryadko, C.~Quintana, C.~Rocque, N.~C. Rubin,
+  N.~Saei, D.~Sank, K.~Sankaragomathi, K.~J. Satzinger, H.~F. Schurkus,
+  C.~Schuster, M.~J. Shearn, A.~Shorter, N.~Shutty, V.~Shvarts, J.~Skruzny,
+  W.~C. Smith, R.~Somma, G.~Sterling, D.~Strain, M.~Szalay, A.~Torres,
+  G.~Vidal, B.~Villalonga, C.~V. Heidweiller, T.~White, B.~W.~K. Woo, C.~Xing,
+  Z.~J. Yao, P.~Yeh, J.~Yoo, G.~Young, A.~Zalcman, Y.~Zhang, N.~Zhu,
+  N.~Zobrist, H.~Neven, S.~Boixo, A.~Megrant, J.~Kelly, Y.~Chen,
+  V.~Smelyanskiy, E.-A. Kim, I.~Aleiner, P.~Roushan,
+\newblock (Preprint) arXiv:2210.10255, submitted: Oct \textbf{2022}.
+
+\bibitem{mi_noise-resilient_2022}
+X.~Mi, M.~Sonner, M.~Y. Niu, K.~W. Lee, B.~Foxen, R.~Acharya, I.~Aleiner, T.~I.
+  Andersen, F.~Arute, K.~Arya, A.~Asfaw, J.~Atalaya, R.~Babbush, D.~Bacon,
+  J.~C. Bardin, J.~Basso, A.~Bengtsson, G.~Bortoli, A.~Bourassa, L.~Brill,
+  M.~Broughton, B.~B. Buckley, D.~A. Buell, B.~Burkett, N.~Bushnell, Z.~Chen,
+  B.~Chiaro, R.~Collins, P.~Conner, W.~Courtney, A.~L. Crook, D.~M. Debroy,
+  S.~Demura, A.~Dunsworth, D.~Eppens, C.~Erickson, L.~Faoro, E.~Farhi,
+  R.~Fatemi, L.~Flores, E.~Forati, A.~G. Fowler, W.~Giang, C.~Gidney,
+  D.~Gilboa, M.~Giustina, A.~G. Dau, J.~A. Gross, S.~Habegger, M.~P. Harrigan,
+  J.~Hilton, M.~Hoffmann, S.~Hong, T.~Huang, A.~Huff, W.~J. Huggins, L.~B.
+  Ioffe, S.~V. Isakov, J.~Iveland, E.~Jeffrey, Z.~Jiang, C.~Jones, D.~Kafri,
+  K.~Kechedzhi, T.~Khattar, S.~Kim, A.~Kitaev, P.~V. Klimov, A.~R. Klots, A.~N.
+  Korotkov, F.~Kostritsa, J.~M. Kreikebaum, D.~Landhuis, P.~Laptev, K.-M. Lau,
+  J.~Lee, L.~Laws, W.~Liu, A.~Locharla, E.~Lucero, O.~Martin, J.~R. McClean,
+  M.~McEwen, B.~M. Costa, K.~C. Miao, M.~Mohseni, S.~Montazeri, A.~Morvan,
+  E.~Mount, W.~Mruczkiewicz, O.~Naaman, M.~Neeley, C.~Neill, M.~Newman, T.~E.
+  O'Brien, A.~Opremcak, A.~Petukhov, R.~Potter, C.~Quintana, N.~C. Rubin,
+  N.~Saei, D.~Sank, K.~Sankaragomathi, K.~J. Satzinger, C.~Schuster, M.~J.
+  Shearn, V.~Shvarts, D.~Strain, Y.~Su, M.~Szalay, G.~Vidal, B.~Villalonga,
+  C.~Vollgraff-Heidweiller, T.~White, Z.~J. Yao, P.~Yeh, J.~Yoo, A.~Zalcman,
+  Y.~Zhang, N.~Zhu, H.~Neven, S.~Boixo, A.~Megrant, Y.~Chen, J.~Kelly,
+  V.~Smelyanskiy, D.~A. Abanin, P.~Roushan,
+\newblock (Preprint) arXiv:2204.11372, submitted Apr \textbf{2022},.
+
+\bibitem{arute_quantum_2019}
+F.~Arute, K.~Arya, R.~Babbush, D.~Bacon, J.~C. Bardin, R.~Barends, R.~Biswas,
+  S.~Boixo, F.~G. S.~L. Brandao, D.~A. Buell, B.~Burkett, Y.~Chen, Z.~Chen,
+  B.~Chiaro, R.~Collins, W.~Courtney, A.~Dunsworth, E.~Farhi, B.~Foxen,
+  A.~Fowler, C.~Gidney, M.~Giustina, R.~Graff, K.~Guerin, S.~Habegger, M.~P.
+  Harrigan, M.~J. Hartmann, A.~Ho, M.~Hoffmann, T.~Huang, T.~S. Humble, S.~V.
+  Isakov, E.~Jeffrey, Z.~Jiang, D.~Kafri, K.~Kechedzhi, J.~Kelly, P.~V. Klimov,
+  S.~Knysh, A.~Korotkov, F.~Kostritsa, D.~Landhuis, M.~Lindmark, E.~Lucero,
+  D.~Lyakh, S.~Mandrà, J.~R. McClean, M.~McEwen, A.~Megrant, X.~Mi,
+  K.~Michielsen, M.~Mohseni, J.~Mutus, O.~Naaman, M.~Neeley, C.~Neill, M.~Y.
+  Niu, E.~Ostby, A.~Petukhov, J.~C. Platt, C.~Quintana, E.~G. Rieffel,
+  P.~Roushan, N.~C. Rubin, D.~Sank, K.~J. Satzinger, V.~Smelyanskiy, K.~J.
+  Sung, M.~D. Trevithick, A.~Vainsencher, B.~Villalonga, T.~White, Z.~J. Yao,
+  P.~Yeh, A.~Zalcman, H.~Neven, J.~M. Martinis,
+\newblock \emph{Nature} \textbf{2019}, \emph{574}, 7779 505.
+
+\bibitem{place_new_2021}
+A.~P.~M. Place, L.~V.~H. Rodgers, P.~Mundada, B.~M. Smitham, M.~Fitzpatrick,
+  Z.~Leng, A.~Premkumar, J.~Bryon, A.~Vrajitoarea, S.~Sussman, G.~Cheng,
+  T.~Madhavan, H.~K. Babla, X.~H. Le, Y.~Gang, B.~Jäck, A.~Gyenis, N.~Yao,
+  R.~J. Cava, N.~P. de~Leon, A.~A. Houck,
+\newblock \emph{Nat. Commun.} \textbf{2021}, \emph{12}, 1 1779.
+
+\bibitem{wang_towards_2022}
+C.~Wang, X.~Li, H.~Xu, Z.~Li, J.~Wang, Z.~Yang, Z.~Mi, X.~Liang, T.~Su,
+  C.~Yang, G.~Wang, W.~Wang, Y.~Li, M.~Chen, C.~Li, K.~Linghu, J.~Han,
+  Y.~Zhang, Y.~Feng, Y.~Song, T.~Ma, J.~Zhang, R.~Wang, P.~Zhao, W.~Liu,
+  G.~Xue, Y.~Jin, H.~Yu,
+\newblock \emph{npj Quantum Inf.} \textbf{2022}, \emph{8}, 1 1.
+
+\bibitem{read_precision_2022}
+A.~P. Read, B.~J. Chapman, C.~U. Lei, J.~C. Curtis, S.~Ganjam, L.~Krayzman,
+  L.~Frunzio, R.~J. Schoelkopf, \textbf{2022},
+\newblock (Preprint) arXiv:2206.14334, submitted: Jun \textbf{2022}.
+
+\bibitem{wang_surface_2015}
+C.~Wang, C.~Axline, Y.~Y. Gao, T.~Brecht, Y.~Chu, L.~Frunzio, M.~H. Devoret,
+  R.~J. Schoelkopf,
+\newblock \emph{Appl. Phys. Lett.} \textbf{2015}, \emph{107}, 16 162601.
+
+\bibitem{lozano_manufacturing_2022}
+D.~P. Lozano, M.~Mongillo, X.~Piao, S.~Couet, D.~Wan, Y.~Canvel, A.~M. Vadiraj,
+  T.~Ivanov, J.~Verjauw, R.~Acharya, J.~Van~Damme, F.~A. Mohiyaddin, J.~Jussot,
+  P.~P. Gowda, A.~Pacco, B.~Raes, J.~Van~de Vondel, I.~P. Radu, B.~Govoreanu,
+  J.~Swerts, A.~Potočnik, K.~De~Greve, \textbf{2022},
+\newblock (Preprint) arXiv:2211.16437, submitted Nov \textbf{2022}.
+
+\bibitem{face_high_1986}
+D.~W. Face, D.~E. Prober, W.~R. McGrath, P.~L. Richards,
+\newblock \emph{Appl. Phys. Lett.} \textbf{1986}, \emph{48}, 16 1098,
+  publisher: American Institute of Physics.
+
+\bibitem{face_nucleation_1987}
+D.~W. Face, D.~E. Prober,
+\newblock \emph{Journal of Vacuum Science \& Technology A} \textbf{1987},
+  \emph{5}, 6 3408.
+
+\bibitem{muller_towards_2019}
+C.~Müller, J.~H. Cole, J.~Lisenfeld,
+\newblock \emph{Rep. Prog. Phys.} \textbf{2019}, \emph{82}, 12 124501,
+  publisher: IOP Publishing.
+
+\bibitem{de_leon_materials_2021}
+N.~P. de~Leon, K.~M. Itoh, D.~Kim, K.~K. Mehta, T.~E. Northup, H.~Paik, B.~S.
+  Palmer, N.~Samarth, S.~Sangtawesin, D.~W. Steuerman,
+\newblock \emph{Science} \textbf{2021}, \emph{372}, 6539 eabb2823.
+
+\bibitem{kevin_resonator}
+K.~D. Crowley, R.~A. McLellan, A.~Dutta, N.~Shumiya, A.~P.~M. Place, X.~H. Le,
+  Y.~Gang, T.~Madhavan, N.~Khedkar, Y.~C. Feng, E.~A. Umbarkar, X.~Gui,
+  L.~V.~H. Rodgers, Y.~Jia, M.~M. Feldman, S.~A. Lyon, M.~Liu, R.~J. Cava,
+  A.~A. Houck, N.~P. de~Leon,
+\newblock Disentangling {Losses} in {Tantalum} {Superconducting} {Circuits},
+  \textbf{2023},
+\newblock (Preprint) arXiv:2301.07848, submitted: Jan \textbf{2023}.
+
+\bibitem{Anjali_Nb:2021}
+A.~Premkumar, C.~Weiland, S.~Hwang, B.~Jäck, A.~P.~M. Place, I.~Waluyo,
+  A.~Hunt, V.~Bisogni, J.~Pelliciari, A.~Barbour, M.~S. Miller, P.~Russo,
+  F.~Camino, K.~Kisslinger, X.~Tong, M.~S. Hybertsen, A.~A. Houck, I.~Jarrige,
+\newblock \emph{Commun. Mater.} \textbf{2021}, \emph{2} 72.
+
+\bibitem{Moulder:1992}
+J.~F. Moulder,
+\newblock \emph{Handbook of X-ray Photoelectron Spectroscopy: A Reference Book
+  of Standard Spectra for Identification and Interpretation of XPS Data},
+\newblock Physical Electronics Division, Perkin-Elmer Corporation,
+  \textbf{1992}.
+
+\bibitem{sherwood_use_2019}
+P.~M. Sherwood,
+\newblock \emph{Surf. Interface Anal.} \textbf{2019}, \emph{51}, 6 589.
+
+\bibitem{engelhard_introductory_2020}
+M.~H. Engelhard, D.~R. Baer, A.~Herrera-Gomez, P.~M.~A. Sherwood,
+\newblock \emph{J. Vac. Sci. Technol. A} \textbf{2020}, \emph{38}, 6 063203.
+
+\bibitem{O2s_cross_section:2022}
+R.~Pugliese, G.~Paolucci,
+\newblock \url{https://vuo.elettra.eu/services/elements/WebElements.html}, last
+  accessed on Sept. 2022.
+
+\bibitem{Himpsel_core_level_shift:1984}
+F.~J. Himpsel, J.~F. Morar, F.~R. McFeely, R.~A. Pollak, G.~Hollinger,
+\newblock \emph{Phys. Rev. B} \textbf{1984}, \emph{30} 7236.
+
+\bibitem{jablonski_effective_2020}
+A.~Jablonski, C.~J. Powell,
+\newblock \emph{Journal of Physical and Chemical Reference Data} \textbf{2020},
+  \emph{49}, 3 033102.
+
+\bibitem{X_ray_attenuation_Henke:1993}
+B.~Henke, E.~Gullikson, J.~Davis,
+\newblock \emph{Atomic Data and Nuclear Data Tables} \textbf{1993}, \emph{54},
+  2 181.
+
+\bibitem{EAL_albedo:2020}
+A.~Jablonski, C.~J. Powell,
+\newblock \emph{J. Phys. Chem. Ref. Data} \textbf{2020}, \emph{49} 033102.
+
+\bibitem{IMFP_tabulated:2015}
+H.~Shinotsuka, S.~Tanuma, C.~J. Powell, D.~R. Penn,
+\newblock \emph{Surf. Interface Anal.} \textbf{2015}, \emph{47} 871.
+
+\bibitem{verjauw_investigation_2021}
+J.~Verjauw, A.~Potočnik, M.~Mongillo, R.~Acharya, F.~Mohiyaddin, G.~Simion,
+  A.~Pacco, T.~Ivanov, D.~Wan, A.~Vanleenhove, L.~Souriau, J.~Jussot, A.~Thiam,
+  J.~Swerts, X.~Piao, S.~Couet, M.~Heyns, B.~Govoreanu, I.~Radu,
+\newblock \emph{Phys. Rev. Appl.} \textbf{2021}, \emph{16}, 1 014018.
+
+\end{thebibliography}

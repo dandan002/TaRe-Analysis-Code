@@ -1,0 +1,473 @@
+\documentclass{WileyMSP-template}
+\usepackage{amsmath}
+\usepackage{color} % for highlighting
+\usepackage{soul} % for highlighting
+
+\renewcommand{\figurename}{Figure}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+
+\begin{document}
+
+
+\pagestyle{fancy}
+
+
+\title{Supporting Information for: Chemical profiles of the oxides on tantalum in state of the art superconducting circuits}
+
+\maketitle
+
+
+
+
+\author{Russell A. McLellan$^\dag{}$}
+\author{Aveek Dutta$^\dag{}$}
+\author{Chenyu Zhou}
+\author{Yichen Jia}
+\author{Conan Weiland}
+\author{Xin Gui}
+\author{Alexander P. M. Place}
+\author{Kevin D. Crowley}
+\author{Xuan Hoang Le}
+\author{Trisha Madhavan}
+\author{Youqi Gang}
+\author{Lukas Baker}
+\author{Ashley R. Head}
+\author{Iradwikanari Waluyo}
+\author{Ruoshui Li}
+\author{Kim Kisslinger}
+\author{Adrian Hunt}
+\author{Ignace Jarrige}
+\author{Stephen A. Lyon}
+\author{Andi M. Barbour}
+\author{Robert J. Cava}
+\author{Andrew A. Houck}
+\author{Steven L. Hulbert}
+\author{Mingzhao Liu*}
+\author{Andrew L. Walter*}
+\author{Nathalie P. de Leon*}
+
+$^\dag{}$These authors contributed equally.
+
+
+\begin{affiliations}
+
+\end{affiliations}
+
+\setlength{\parindent}{20pt}
+
+\section{Materials}
+
+All samples used in the variable energy X-ray photoelectron spectroscopy (VEXPS) measurements were approximately 200 nm thick $\alpha$-Ta(111). Measurements reported in the main text were performed on a film deposited by DC magnetron sputtering onto c-plane sapphire by Star Cryoelectronics.  Measurements reported in Section \ref{Effect of multiple BOE treatments} were performed on a film deposited by DC magnetron sputtering onto c-plane sapphire at Princeton University. Phase and orientation of both tantalum films were confirmed by X-ray diffraction and measurements of both the superconducting critical temperature and critical magnetic field in a Physical Property Measurement System. All samples were approximately 7 mm x 4 mm rectangles. Morphology differences between the two films are described in Section \ref{AFM_section}.
+
+\section{Methods} \label{sec:methods}
+
+10:1 buffered oxide etch (BOE) is a mixture of 10 parts 40\% NH$_4$F solution to 1 part 49\% HF solution by volume. We procured 10:1 BOE from Transene. BOE treated samples were placed in buffered oxide etch at room temperature and were not agitated. After 20 minutes, the samples were removed and triple rinsed in de-ionized water and 2-propanol before being blown dry in N$_2$.
+
+The triacid treatment is 1:1:1 equal mix by volume of 95-98\% H$_2$SO$_4$, 70\% HNO$_3$, and 70\% HClO$_4$ solutions (all percentages by weight). We procured all solutions from SigmaAldrich (catalogue numbers: H$_2$SO$_4$ - 258105, HNO$_3$ - 225711, HClO$_4$ - 244252). After the sample was added to the mixture, it was heated to 200 $\degree$C for 2 hours and then allowed to cool for 1 hour. During this process, the exhaust gas was cooled and bubbled through water. No agitation was performed. After cooling, the sample was removed, triply rinsed in de-ionized water and 2-propanol before being blown dry in N$_2$.
+
+All films were treated in piranha solution for 20 minutes. BOE and triacid treated samples were treated in piranha solution prior to undergoing BOE or triacid treatments. Native samples were treated several hours before being inserted into the vacuum chamber for VEXPS. Piranha solution was prepared with 2 parts H$_2$SO$_4$ to 1 part H$_2$O$_2$ by volume, initially at room temperature. No external heating or agitation was performed. After being removed from the piranha solution, samples were triply rinsed in de-ionized water and 2-propanol before being blown dry in N$_2$. The effect of the piranha treatment is explored in Section \ref{sec:piranha}.
+
+VEXPS measurements were performed at the Spectroscopy Soft and Tender-1 and Spectroscopy Soft and Tender-2 (SST-1 and SST-2) beam lines at the National Synchrotron Light Source II at Brookhaven National Laboratory. SST-1 was used for X-ray energies less than 2000 eV and SST-2 was used for X-ray energies greater than or equal to 2000 eV. The difference between SST-1 and SST-2 is in the energy range of the X-ray beam sent to the sample; beam lines share the same vacuum chamber. The step size for VEXPS measurements was 0.05 eV and dwell time was 100 ms. The detector pass energy was varied from 20 eV to 200 eV as X-ray energy was changed based on the observed electron counts and whether we could resolve the Ta$^0_\text{int}$ shoulder peak. Depending on the experiment, a separate sample of either silver or gold was scanned at each X-ray energy as a binding energy reference. When a silver reference was used, we set the binding energy of the Ag3d$_{5/2}$ peak to 368.3 eV. When a gold reference was used, we set the binding energy of the Au4f$_{7/2}$ peak to 84 eV.
+
+\section{XPS trace analysis} \label{XPS_trace_analysis}
+\subsection{Uncertainty calibration of XPS data}
+The number of electron counts varies significantly from datapoint to datapoint. The maximal number of counts for different spectra can vary by over two orders of magnitude across the X-ray energy we scanned. This difference is largely attributed to differences in incident X-ray photon flux. We expect the uncertainties in our measured photoelectron intensity to be a function of the number of counts, and we need to  calibrate the uncertainties to ensure that we are fitting the peaks correctly.
+
+To calibrate our error bars, we fit a line to regions of traces that contain no peaks. The Ta4f peaks are close in binding energy to the Ta5p and Ta5s peaks, and therefore it was not possible to find a region near the Ta4f peaks that contained only background counts. However, each time we measured Ta4f traces at a particular X-ray energy, we also measured the O1s and C1s peaks on each tantalum sample. We also have Ag3d spectra on the reference sample that we used to calibrate the binding energy at each photon energy. We set our binding energy range on these peaks large enough to capture a region several eV wide with no observable satellite loss peaks. As there are no observable peaks in these regions, we assume that a line is the best fit to each dataset.
+
+We initially assume that the electron count statistics are Poissonian, and therefore $\sigma_{I_i} = \sqrt{I_i}$, where $I_i$ is the number of counts for the $i$th datapoint and $\sigma_x$ is the uncertainty in the measurement $x$. For each C1s, O1s, and Ag3d trace, we fit a line to background regions using these Poissonian error bars, and then scale the uncertainties so that the reduced $\chi^2$ value of the fit is unity. The uncertainties are now given by $\sigma_{I_i} = \alpha{}\sqrt{I_i}$, where $\alpha$ is a scalar. The binding energy regions we considered as the background are shown in Table \ref{table_uncertainty}. The uncertainty scaling is shown for an example C1s trace in Figure \ref{fig:ErrorScaling}(a).
+
+A value of $\alpha$ was fit individually to each O1s, C1s, and Ag3d trace. There is no systematic trend with the value of $\alpha$ versus either the mean electron kinetic energy of the scan or the mean number of electron counts for the scan (Figure \ref{fig:ErrorScaling}(c-d)). All values of $\alpha$ appear to be drawn from a unimodal distribution with mean $\overline{\alpha} = 6.4\pm 0.9$ (Figure \ref{fig:ErrorScaling}(b)). Based on these results, we use error bars $\sigma_{I_i} = \overline{\alpha}\sqrt{I_i}$ for all of our data.
+
+We interpret the value of $\overline{\alpha}$ being larger than unity as consistent with the large amount of gain in the electron detection system. We also note that any overall scaling factor $\overline{\alpha}$ would not affect the fits of the XPS peaks, but only the reduced $\chi^2$ value. The parameters resulting from our fits would be different only if the uncertainties scaled in a manner other than $\sigma_{I_i} \propto \sqrt{I_i}$.
+\begin{figure}
+  \centering
+  \includegraphics[width=0.75\linewidth]{sup_errorScaling.pdf}
+  \caption{a) Photoelectron counts for a C1s scan between 291 eV and 295 eV at an incident X-ray energy of 2000 eV. We observe no loss peaks in this region. Data is plotted in red with errors bars assuming a Poisson distribution. However, the best fit line to the data (green) does not give a reduced $\chi^2$ of unity with Poisson error bars. The errors bars must be scaled by a number $\alpha$ to give $\chi^2=1$. These scaled error bars are plotted in blue. (Inset: The full C1s scan with the area in the main plot indicated) b) Histogram of the scaling parameter $\alpha$ obtained by scaling error bars in empty regions of all C1s, O1s, and Ag3d regions as in a). The mean value of $\alpha$ is $\overline{\alpha}$ = 6.4 $\pm$ 0.9. c-d) the data in b) plotted versus the mean intensity (c) and electron kinetic energy (d) of each scan. There is no systematic trend with either variable, indicating that a single scaling factor $\overline{\alpha}$ is sufficient to capture the uncertainty in the intensity in all scans.}\label{fig:ErrorScaling}
+\end{figure}
+
+\begin{table}[h]
+ \caption{Binding energy regions considered empty for uncertainty calibration.}
+ \label{table_uncertainty}
+ \centering
+ \setlength{\tabcolsep}{10pt}
+  \begin{tabular}[htbp]{@{}lccc@{}}
+    \hline
+     & O1s & C1s & Ag3d   \\
+    \hline
+    Lower bound (eV) & 538 & 291 & 360 \\
+    Upper bound (eV) & 543 & 295 & 363 \\
+    \hline
+    
+  \end{tabular}
+\end{table}
+
+\subsection{Background subtraction}
+
+We subtracted a Shirley background from all Ta4f and O1s XPS spectra before fitting. The Shirley background attempts to correct for the step change in background signal seen before and after a large peak, attributed to electrons from the peak which are scattered before being detected at a lower kinetic energy. The initial presentation of the Shirley background is given in \cite{shirley_high-resolution_1972} and it is discussed in more detail in \cite{engelhard_introductory_2020}. The Shirley background correction process is presented here based on those treatments, and we include a method of propagating error through the background correction.
+
+First, we choose binding energies above and below the peaks of interest where we assume that any signal present is only background signal. The intensity of electrons at these binding energies will be used in our background subtraction, so we average over a small number of binding energy points to extract a mean and uncertainty of the background counts.
+
+We subtract a flat background, $\overline{I_1}$, from the spectrum, equal to the mean number of counts at the lower binding energy. This initial flat background correction compensates for any constant source of noise that is independent of the electrons from the peaks. The intensity after the flat background correction is given by:
+
+\begin{equation} \label{eq:flat_background}
+    I^{'}_i = I_i - \overline{I_1},
+\end{equation}
+
+where $I^{'}_i$ is the flat-background corrected intensity at index $i$, and $I_i$ is the uncorrected intensity at binding energy index $i$. The uncertainty from the flat background is propagated to the uncertainty in the flat-background corrected intensities by:
+
+\begin{equation}\label{eq:flat_error}
+    \sigma_{I^{'}_i}^2 = \sigma^2_{I_i} + \sigma^2_{I_1},
+\end{equation}
+ 
+ where $\sigma_A$ indicates the uncertainty in the variable $A$.
+
+After the flat background correction, we apply the Shirley background correction. The Shirley background is given by:
+
+\begin{equation} \label{eq:shirley_background}
+    s_i = \left(\frac{\sum\limits_{j\leq{}i} I^{'}_j}{\sum\limits_k{I^{'}_k}}\right)(I^{'}_f - I^{'}_1),
+\end{equation}
+
+where $s_i$ is the Shirley background at index $i$, and the indices run from 1 to $f$, where $f$ is the index corresponding to the highest binding energy. The Shirley background corrected intensity is given by $I_i^{''}$ = $I_i^{'} - s_i$. To calculate the uncertainty in the Shirley-corrected data, we use the following formula for error propagation \cite{bevington_error_2003}:
+
+\begin{equation} \label{eq:error_propagation}
+    \sigma_B^2 = \sum\limits_i \sigma_{b_i}^2 \left( \frac{\partial{}B}{\partial{}b_i} \right)^2,
+\end{equation}
+
+where $B$ is a function of the $b_i$s and each $b_i$ has a known uncertainty. We have assumed that all $\sigma_{b_i}$ are independent in Equation \ref{eq:error_propagation}. Applying Equation \ref{eq:error_propagation} to $I^{''}_i$, we find:
+
+\begin{equation}
+    \sigma_{I^{''}_i}^2 = \sigma_{I^{'}_i}^2 + g_i^2(I^{'}_f-I^{'}_1)^2 \left(\frac{\sigma_{g_i}^2}{g_i^2} + \frac{\sigma_{I^{'}_f}^2 + \sigma_{I^{'}_1}^2}{(I^{'}_f + I^{'}_1)^2}\right), 
+\end{equation}
+
+where:
+\begin{align}
+    g_i & = \frac{\sum\limits_{j\leq{}i} I^{'}_j}{\sum\limits_k{I^{'}_k}} \\
+    \sigma_{g_i}^2 & = \left( \frac{1-g_i}{\sum\limits_k I^{'}_k} \right)^2 \sum\limits_{j\leq{}i} \sigma_{I^{'}_j}^2 + \left( \frac{g_i}{\sum\limits_k I^{'}_k} \right)^2 \sum\limits_{j>i} \sigma_{I^{'}_j}^2.
+\end{align}
+
+We perform background subtraction for both Ta4f and O1s peaks. For Ta4f peaks, the binding energy range for background subtraction is 20 eV to 30.5 eV. For O1s peaks, the binding energy range for background subtraction is 528 eV to 536 eV. An example of background subtraction on a Ta4f spectrum is shown in Figure \ref{fig:sup_background}.
+
+\begin{figure}
+\centering
+  \includegraphics[width=0.6\linewidth]{sup_background.pdf}
+  \caption{Data and calculated background for the Ta4f spectra measured on the untreated (''Native") sample with an X-ray energy of 2200 eV. Both flat and total (flat + Shirley) backgrounds are shown. The flat background corrects for any constant noise unrelated to the electrons from the peaks, while the Shirley background corrects for electrons from the peaks which are scattered before being collected.}
+  \label{fig:sup_background}
+\end{figure}
+
+\subsection{XPS peak fitting with constraints} 
+
+As described in the main text, XPS peaks are fit with either Gaussian (Ta$^{5+}$, Ta$^{3+}$, Ta$^{1+}$, and O2s), or skewed Voigt (Ta$^0$ and Ta$^0_{\text{int}}$) profiles \cite{engelhard_introductory_2020}. Each Ta peak is doubled due to the strong spin orbit coupling of tantalum, leaving us with a total of 11 peaks per Ta4f spectrum. In order to fit these peaks with minimal uncertainty, we fit all Ta4f spectra for each sample simultaneously, constraining peak locations, amplitudes, widths, and skewnesses as described in this section. Our peak fitting is implemented with the lmfit Python package \cite{noauthor_getting_nodate}.
+
+A Gaussian profile is described by:
+\begin{equation}\label{eq:gaussian}
+    f(x;A,\mu,\sigma) = \frac{A}{\sigma{}\sqrt{2\pi{}}}e^{-(x-\mu{})^2/2\sigma^2},
+\end{equation}
+
+where $A$ is the area under the curve, $\mu$ is the center of the profile, and $\sigma$ is the width of the profile. A skewed Voigt profile is described by:
+\begin{equation}\label{eq:voigt}
+    f(x;A,\mu,\sigma,\lambda) = \frac{A \text{Re}[w(z)]}{\sigma{}\sqrt{2\pi{}}}\left(1+\text{erf}\left[\frac{\lambda(x-\mu)}{\sigma\sqrt{2}} \right] \right),
+\end{equation}
+
+where $A$, $\mu$, and $\sigma$ have the same meanings as in Equation \ref{eq:gaussian}, $\lambda$ is the dimensionless skewness parameter, erf is the error function, and $z$ and $w(z)$ are given by:
+
+\begin{align}
+    z & = \frac{x-\mu-i\sigma}{\sigma\sqrt{2}} \\
+    w(z) & = e^{-z^2}\text{erfc}(-iz). \label{eq:w(z)}
+\end{align}
+
+In Equation \ref{eq:w(z)}, erfc($-iz$) = 1-erf($-iz$) is the complementary error function.
+
+Physically, for each peak, $A$ represents the total photoelectron intensity, $\mu$ represents the binding energy of the peak, $\sigma$ characterizes broadening (including broadening introduced by the photoelectron detector), and $\lambda$ characterizes the shake-up satellite structure of conductive compounds. We use these physical interpretations to constrain parameters as follows.
+
+First, we assume that the shake-up satellite structure of the Ta$^{0}_\text{int}$ and Ta$^{0}$ states are identical and unchanged across experiments at different X-ray energies. This assumption implies that a single value of $\lambda$ can be used for all Ta$^{0}_\text{int}$ and Ta$^{0}$ peaks across all X-ray energies for each sample.
+
+Second, each pair of peaks that arise from the Ta$_{7/2}$ and Ta$_{5/2}$ spin states of the same tantalum oxidation state should share the same $\sigma$ parameter. Further, we assume that the proportion of electron population in the Ta$_{7/2}$ and Ta$_{5/2}$ states, the proportion of the X-ray cross sections of the Ta$_{7/2}$ and Ta$_{5/2}$ states, and spin-orbit coupling strengths are independent of the tantalum oxidation state and incident X-ray energy. These assumptions imply that the ratio of $A$ and the difference in $\mu$ between any pair of Ta$_{7/2}$ and Ta$_{5/2}$ peaks is the same
+
+Third, we assume that the binding energy of each peak does not change between experiment at different X-ray energies. In practice, variations on the order of 0.1 eV are observed in the positions of the Ta$^{5+}$ and Ta$^{0}$ peaks, which we attribute to charging of the tantalum oxide layer. Instead of fixing binding energy positions absolutely, we constrain relative peak position. We allow the binding energy of the Ta$^{5+}$ and Ta$^{0}$ peaks to vary at each X-ray energy, as these peaks are easily located. The positions of the Ta$^{1+}$ and Ta$^{3+}$ are constrained relative to the position of the Ta$^{5+}$ peak across all X-ray energies, and likewise the position of the Ta$^{0}_\text{int}$ peak is constrained relative to the Ta$^{0}$ peak. We constrain the O2s peak to have a single binding energy, although in practice, this peak is small and found to be quite wide, so variations in the O2s binding energy are unlikely to have a significant impact on the fit.
+
+Fourth, we assume that for a given XPS spectrum, the broadening of the Ta$^0$ and Ta$^0_\text{int}$ peaks are the same, as is the broadening of the Ta$^{1+}$, Ta$^{3+}$, and Ta$^{5+}$ peaks. We are assuming that only three different values of $\sigma$ are needed for each Ta4f spectrum; one for the tantalum oxide species, one for the metallic species, and one for the O2s peak. In practice, relaxing this assumption does not significantly affect the peak fits.
+
+Fifth, we constrain the amplitude of the O2s peak to 5\% of the amplitude of the O1s spectrum. The X-ray cross-section for the O1s and O2s states are approximately constant in the X-ray energy range 600 eV to 1500 eV \cite{O2s_cross_section:2022}, and we extrapolate this ratio out to our maximum X-ray energy of 7000 eV. The intensity of the O2s peak is typically less than 5\% of the Ta4f intensity, so we do not believe that this extrapolation introduces significant error. Note that we are neglecting the kinetic energy difference between an O1s photoelectron and an O2s photoelectron. At each X-ray energy, we numerically integrate the area under a background corrected O1s spectrum between binding energies 528 eV and 536 eV to calculate the O1s intensity, and this value is scaled to fix the O2s energy at the corresponding Ta4f spectrum. 
+
+With these constraints in place, for our native tantalum dataset with 17 different X-ray energies, we have 193 free parameters to fit 187 different peaks. This reduction is a significant improvement over the naive method where each parameter is independent, which requires 340 free parameters for the same 187 peaks. The full results of this fitting method are shown for the native tantalum (Figure \ref{figNativeXPSFit}), BOE treated tantalum (Figure \ref{figBOEXPSfit}), and triacid treated tantalum (Figure \ref{figTriacidXPSfit}).
+
+\begin{figure}
+\centering
+  \includegraphics[width=\linewidth]{sup_NativeFit.pdf}
+  \caption{Fitted Ta4f intensity spectra for all X-ray energies on the untreated (''Native") sample. All spectra are fitted simultaneously with certain parameters constrained between spectra, as described in the text. Three of these fitted spectra are shown in the main text in Figure 2.}
+  \label{figNativeXPSFit}
+\end{figure}
+
+
+\begin{figure}
+\centering
+  \includegraphics[width=\linewidth]{sup_BOEFit.pdf}
+  \caption{Fitted Ta4f intensity spectra for all X-ray energies on the BOE treated sample. All spectra are fitted simultaneously with certain parameters constrained between spectra, as described in the text. Note that the $E_{ph}=6000$ eV plot has different y-axis limits from the other spectra.}
+  \label{figBOEXPSfit}
+\end{figure}
+
+
+\begin{figure}
+\centering
+  \includegraphics[width=\linewidth]{sup_TriacidFit.pdf}
+  \caption{Fitted Ta4f intensity spectra for all X-ray energies on the triacid treated sample. All spectra are fitted simultaneously with certain parameters constrained between spectra, as described in the text.}
+  \label{figTriacidXPSfit}
+\end{figure}
+
+\subsection{Propagation of error to photoelectron intensity fractions}
+
+The fitted parameters from the XPS spectra which are used in the depth profile analysis are the intensity fractions of each of the Ta$_{7/2}$ peaks, 
+\begin{equation} \label{eq:int_fraction}
+    W_n = \frac{A_n}{\sum\limits_m A_m},
+\end{equation}
+
+where $W_n$ is the intensity fraction of the oxidation state $n$, $A_n$ is the intensity from the oxidation state $n$, and the index $n$ belongs to the set $\{$Ta$^0$, Ta$^0_\text{int}$, Ta$^{1+}$, Ta$^{3+}$, Ta$^{5+}\}$. In addition to $f_n$, we will also need $\sigma_{f_n}$, the uncertainty in the intensity fraction.
+
+We propagate the uncertainty to the intensity fraction using the following formula \cite{bevington_error_2003}:
+\begin{equation} \label{eq:error_prop_general}
+    \sigma_B^2 = \sum_{i,j} \sigma_{b_ib_j}^2\left( \frac{\partial B}{\partial b_i}\right)\left( \frac{\partial B}{\partial b_j}\right),
+\end{equation}
+
+where $B$ is a function of the $b_i$s, and $\sigma_{b_ib_j}^2$ is the covariance between $b_i$ and $b_j$, and $\sigma_{b_ib_i}^2$ =  $\sigma_{b_i}^2$ is the variance of $b_i$. In Equation \ref{eq:error_prop_general}, we have not assumed that the errors are uncorrelated, as the different intensities do correlate with each other.
+
+The empirical covariance matrix is calculated and reported by the lmfit Python module in addition to the fitted parameters. We apply Equation \ref{eq:error_prop_general} to Equation \ref{eq:int_fraction} to arrive at:
+\begin{equation}
+    \sigma_{W_n}^2 = \sigma_{A_n} \left( \frac{1-W_n}{\sum\limits_m A_m} \right)^2 + \left( \frac{W_n}{\sum\limits_m A_m} \right)^2 \sum\limits_{\ell \neq n}\sigma_{A_\ell}^2 - 2\frac{W_n(1-W_n)}{\bigg(\sum\limits_m A_m\bigg)^2} \sum\limits_{\ell{}\neq n}\sigma_{A_\ell{}A_n}^2,
+\end{equation}
+
+which we use to set the uncertainties in the intensity fractions used when fitting a depth profile.
+
+\section{Chemical depth profile analysis}
+\subsection{General modeling of the film}
+
+Here we model the object of study as a multicomponent thin film placed on a uniform substrate of infinite thickness. The object occupies the half-space of $x\geq0$, and contains $N$ unique species (${S_n}, n = 1,...,N$) that are spatially mixed, including the substrate species ($S_N$). The mixing is inhomogenous along $x$ but is homogenous along the other two dimensions. During mixing, we assume the volume of each species is conserved, so that a volume fraction profile $\{F_n(x)\}$ $(n =1,...,N)$ is defined for each depth $x$, with the total volume fraction constraint $\sum\limits_{n=1}^N F_n(x) = 1$ for all $x$. The volume fraction of the substrate species, $F_N$, follows the limiting behavior of $\lim_{x\to\infty} F_N(x)=1$. 
+
+Now consider an atom of interest Q, that has a mass density of $\rho_n$ within each species $S_n$. As such, the total mass density of all atoms Q at a depth of $x$ is
+\begin{equation}
+\rho(x) = \displaystyle\sum_{n=1}^N\rho_nF_n(x).
+\label{mass_density}
+\end{equation}
+
+\subsection{Photon and photoelectron attenuation}
+
+Consider a beam of incident photons that have photon energy $E_\textrm{ph}$, incident angle $\Theta_\textrm{ph}$, and photon flux $I_0$ normalized to unity. The beam is attenuated across the thin film due to photon absorption by atom Q. Across a thin slab of thickness $ds$ at a depth of $s$, the attenuation of beam flux can be written as    
+\begin{equation}
+dI = -I(s, E_\textrm{ph}, \Theta_\textrm{ph})\frac{\mu}{\rho_0}\frac{\rho(s)}{\sin\Theta_\textrm{ph}}ds,
+\label{xattn_diff}
+\end{equation}
+in which the term $\mu/\rho_0$ is the tabulated mass attenuation coefficient as a function of $E_\textrm{ph}$, i.e., $\mu/\rho_0=\mu(E_\textrm{ph})/\rho_0$. Integration over Equation (\ref{xattn_diff}) produces photon flux at the depth $x$, as
+\begin{equation}
+I(x, E_\textrm{ph}, \Theta_\textrm{ph}) = \exp\left(-\int_0^x\frac{\mu(E_\textrm{ph})}{\rho_0}\frac{\rho(s)}{\sin\Theta_\textrm{ph}}ds\right).
+\label{xattn}
+\end{equation}
+
+For photoelectron generation, we assume an atom Q has a photoelectron yield $\eta$ that is independent of its species assignment. As such, the species $S_n$ contained within a thin slab of $dx$ at a depth of $x$ should give rise to a photoelectron generation rate $dg_n$ as:
+\begin{align}
+dg_n & = \eta\rho_nF_n(x)I(x, E_\textrm{ph}, \Theta_\textrm{ph})dx  \\
+& = \eta\rho_nF_n(x)\exp\left(-\int_0^x\frac{\mu(E_\textrm{ph})}{\rho_0}\frac{\rho(s)}{\sin\Theta_\textrm{ph}}ds\right)dx. \nonumber
+\label{pe_gen}
+\end{align}
+Photoelectrons generated from atoms Q in species $S_n$ have kinetic energy $E_k = E_\textrm{ph}-E_{b,n}$, in which $E_{b,n}$ is the binding energy of the core level of Q in $S_n$. With a photoelectron collection angle $\Theta_\textrm{el}$, photoelectrons generated at depth $x$ travel through a distance of $x/\sin\Theta_\textrm{el}$ across the film, leading to an attenuation factor of $\exp\left(-x\lambda_\textrm{el}^{-1}(E_\textrm{ph}-E_{b,n})/\sin\Theta_\textrm{el}\right)$, in which $\lambda_\textrm{el}(E_\textrm{ph}-E_{b,n})$ is the inelastic mean free path of a photoelectron at the energy $E_\textrm{ph}-E_{b,n}$. As such, the species $S_n$ contained within a thin slab of $dx$ at a depth of $x$ will contribute 
+\begin{align}
+dA_n & =\gamma dg_n\exp\left(-\frac{x}{\lambda_\textrm{el}(E_\textrm{ph}-E_{b,n})\sin\Theta_\textrm{el}}\right)  \\
+& = \gamma\eta\rho_nF_n(x)\exp\left(-\int_0^x\frac{\mu(E_\textrm{ph})}{\rho_0}\frac{\rho(s)}{\sin\Theta_\textrm{ph}}ds-\frac{x}{\lambda_\textrm{el}(E_\textrm{ph}-E_{b,n})\sin\Theta_\textrm{el}}\right)dx \nonumber \\
+& = \gamma\eta\rho_nF_n(x)T_n(x, E_\textrm{ph},\Theta_\textrm{ph},\Theta_\textrm{el})dx \nonumber
+\label{pe_collect}
+\end{align}
+to the final photoelectron spectrum, where $\gamma$ is the photoelectron collection efficiency and $T_n(x, E_\textrm{ph},\Theta_\textrm{ph},\allowbreak \Theta_\textrm{el})$ covers the exponential attenuation term in the second line. It should be noted that the latter term only has very weak dependence on $n$, as the variance of $E_{b,n}$ has little relative influence on photoelectron kinetic energy $E_\textrm{el}-E_{b,n}$. As such, we may safely replace $T_n(x, E_\textrm{ph},\Theta_\textrm{ph},\Theta_\textrm{el})$ with a species-independent attenuation $T(x, E_\textrm{ph}, E_b, \Theta_\textrm{ph},\Theta_\textrm{el})$, in which $E_b\simeq\langle E_{b,n}\rangle$ is the typical binding energy.
+
+Integration over $x$ produces the total contribution of species $S_n$ to the final spectrum, as
+\begin{equation}
+A_n(E_\textrm{ph}, E_b, \Theta_\textrm{ph},\Theta_\textrm{el}) =  \gamma\eta\rho_n\int_0^\infty F_n(x)T(x, E_\textrm{ph}, E_b, \Theta_\textrm{ph},\Theta_\textrm{el})dx.
+\label{pe_collect_2}
+\end{equation}
+Finally, the species $S_n$ contributes a normalized weight of
+\begin{equation}
+W_n(E_\textrm{ph}, E_b, \Theta_\textrm{ph},\Theta_\textrm{el}) =  \frac{\rho_n\displaystyle\int_0^\infty F_n(x)T(x, E_\textrm{ph}, E_b, \Theta_\textrm{ph},\Theta_\textrm{el})dx}{\displaystyle\sum_{n=1}^{N}\rho_n\displaystyle\int_0^\infty F_n(x)T(x, E_\textrm{ph}, E_b, \Theta_\textrm{ph},\Theta_\textrm{el})dx},
+\label{XPS_spectral_weight}
+\end{equation}
+which directly corresponds to the results obtained by analyzing experimental XPS spectra. The fitting process will use experimentally obtained $\{W_n(E_\textrm{ph}, E_b, \Theta_\textrm{ph},\Theta_\textrm{el})\}$ to infer volume fractions $\{F_n(x)\}$.
+
+\subsection{Basis set of volume fractions}
+\label{Basis set of volume fractions}
+A basis set is needed for volume fractions $\{F_n(x)\}$, so that a small number of fitting parameters can be used to model the spatial distribution of each species within the thin film. The basis set we use is generated with the following procedure. First, a set of $N$ \emph{precursor functions} are defined as 
+\begin{equation}
+f_n(x) =
+\begin{cases}
+H(x) & (n=1)\\
+\left[1 + \exp\left(\frac{d_n - x}{w_n}\right)\right]^{-1} &  (1<n\leq N),
+\end{cases}
+\label{precursors}
+\end{equation}
+in which $H(x)$ is the unit step function, and $d_n$ and $w_n$ are center and width parameters for $f_n(x)$. Using the precursor functions, the volume fraction functions are generated as
+\begin{equation}
+F_n(x) =
+\begin{cases}
+\left(1-f_{n+1}(x)\right)\displaystyle\prod_{i=1}^n f_i(x)& (1\leq n<N)\\
+\displaystyle\prod_{i=1}^N f_i(x) &  (n = N).
+\end{cases}
+\label{volFrac}
+\end{equation}
+Equation \ref{volFrac} will generate functions which automatically follow the sum rule $\sum\limits_{n=1}^N F_n(x) = 1$. A typical initial guess of precursor functions $\{f_n(x)\}$ and generated volume fractions $\{F_n(x)\}$ are shown in Fig. \ref{fig:sup_precursor}. The basis set for the $N$ species has a total of $2(N-1)$ fitting parameters ($N-1$ $d_n$'s and $N-1$ $w_n$). Note that the precursor function $f_1(x)$ requires no parameters. With $N=5$ unique species, the fitting procedure involves 8 fitting parameters.
+
+\begin{figure}
+\centering
+  \includegraphics[width=0.7\linewidth]{sup_precursor.pdf}
+  \caption{Example precursor function set (a) and corresponding profile function set (b). The precursor functions are sigmoids or a constant as described in Equation \ref{precursors}, and the profile functions are calculated from the precursors according to Equation \ref{volFrac}. The profile function set has the property that at any depth, the sum of all functions is unity.}
+  \label{fig:sup_precursor}
+\end{figure}
+
+\subsection{Method to ensure a best fit}
+
+Fitting the model function, Equation \ref{XPS_spectral_weight}, with the depth profile parameterizations, described in Section \ref{Basis set of volume fractions}, to experimental data is a non-convex optimization problem. A fitting algorithm can terminate in a local minimum of the least squared objective function instead of a global minimum. Unlike the fits to XPS spectra described in Section \ref{XPS_trace_analysis}, we may not have sufficient physical insight into our system to recognize and discard solutions corresponding to these local minima when we fit chemical depth profiles.
+
+To overcome this issue, we perform 100 fits to the data from each sample, varying the initial conditions for each fit. For each fit, we draw initial conditions for the 8 parameters (4 $d_n$s and 4 $w_n$s specified in Equation \ref{precursors}) from uncorrelated uniform distributions. The bounds for these uniform distributions are given in Table \ref{table:sup_bounds}; the bounds for the triacid treated sample were extended to account for the thicker oxide layer. For each sample we fit, we found that a large fraction of the 100 fits converged to the same set of final parameters. These sets of fitted parameters correspond to the lowest $\chi^2$ value, and therefore we are confident that we have found the best chemical depth profile fit given our parameterization. Histograms of the initial and final parameter values for all 100 fits to the data taken from the native sample are shown in Figure \ref{fig:sup_MonteCarloFit}.
+
+\begin{table}[h]
+ \caption{Uniform distribution bounds used for the initial conditions of depth profile fits. Parameters are the $d_n$s and $w_n$s from Equation \ref{precursors} with numeric subscripts $\{2, 3, 4, 5\}$ replaced by the descriptive subscripts $\text{Ta}^{3+}, \text{Ta}^{1+}, \{\text{Ta}^0_{\text{int}}, \text{Ta}^{0}\}$. All values are given in nm.} 
+ \label{table:sup_bounds}
+ \centering
+ \setlength{\tabcolsep}{10pt}
+  \begin{tabular}[htbp]{@{}lcccccccc@{}}
+    \hline
+    Film & $d_{\text{Ta}^{3+}}$ & $d_{\text{Ta}^{1+}}$ & $d_{\text{Ta}^0_{\text{int}}}$ & $d_{\text{Ta}^{0}}$
+     & $w_{\text{Ta}^{3+}}$ & $w_{\text{Ta}^{1+}}$ & $w_{\text{Ta}^0_{\text{int}}}$ & $w_{\text{Ta}^{0}}$ \\
+    \hline
+    Samples not triacid treated & [0, 3] & [0, 4] & [0, 5] & [0, 6] & [0.05, 1.5] & [0.05, 1.5] & [0.05, 1.5] & [0.05, 1.5] \\
+    Triacid treated sample & [2, 6] & [0, 6] & [0, 7] & [0, 8] & [0.05, 1.5] & [1.05, 2.5] & [1.05, 2.5] & [2.05, 3.5] \\
+    \hline
+    
+  \end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+  \includegraphics[width=1\linewidth]{sup_MonteCarlo.pdf}
+  \caption{Initial and final parameters from 100 fits to the native oxide sample. Initial conditions for each fit were drawn from uncorrelated uniform distributions with bounds given in Table \ref{table:sup_bounds}. Parameters are those specified in Equation \ref{precursors}, in units of nm, with numeric subscripts $\{1, 2, 3, 4\}$ replaced by the descriptive subscripts $\text{Ta}^{5+}, \text{Ta}^{3+}, \text{Ta}^{1+} \{\text{Ta}^0_{\text{int}}\}$}
+  \label{fig:sup_MonteCarloFit}
+\end{figure}
+
+\subsection{Uncertainties in effective thickness}
+
+Uncertainties for the effective thicknesses of surface species are given in Table 1 in the main text and Table \ref{table:sup_multipleBOE}. As the effective thickness is not a parameter that is fit in the model, we calculate these uncertainties using a post-fit Monte-Carlo method.
+
+For each sample, we perturb the set of best fit parameters by adding a set of numbers drawn from uncorrelated uniform distributions. We either accept or reject the perturbed parameters based on the corresponding $\chi^2$ value. After we have accepted 100 perturbed parameters, we take the standard deviation of the set of 100 calculated effective thicknesses to report the 1$\sigma$ uncertainty.
+
+The criteria for accepting a perturbed set of parameters is whether, given our data, the likelihood of the parameters exceeds 0.3. We calculate likelihoods from each parameter set from the $\chi^2$ distribution for our fit; $\chi^2$ values and probabilities are scaled such that the best fit has the maximum probability at 1.
+
+\subsection{Results of fitting algorithm}
+
+The fitted photoelectron intensity fractions for the untreated (``Native") tantalum are shown in the main text in Figure 3, and the depth profile is shown in Figure 4a. Depth profiles for the BOE treated and triacid treated tantalum samples are shown in the main text in Figure 4b and Figure 4c, respectively. The fitted photoelectron intensity fractions for these latter two samples are shown in Figure \ref{fig_BOE_triacid_fit}.
+
+\begin{figure}
+\centering
+  \includegraphics[width=0.7\linewidth]{sup_XPSfits_BOE_Triacid.pdf}
+  \caption{Experimental and simulated photoelectron intensities for the BOE treated (a-b) and triacid treated (c-d) samples. These fits correspond to the depth profiles shown in the main text in Figure 4b and Figure 4c respectively.}
+  \label{fig_BOE_triacid_fit}
+\end{figure}
+
+
+\section{Peak assignment} \label{sec:peak_assignment}
+
+As described in the main text, we observe 5 Ta4f doublets. The pair of peaks at 22 eV and 24 eV binding energy has previously been assigned as Ta$^{0}$, the pair at 27 eV and 29 eV assigned to Ta$^{5+}$, and the pair at the shoulder of the Ta$^0$ peaks assigned as a tantalum species at a material interface with a differing coordination number \cite{Himpsel_core_level_shift:1984}. The Ta$^{5+}$ in our sample is in the form Ta$_2$O$_5$. The other two doublets have binding energies at 23 eV and 25 eV, and 24 eV and 26 eV. We assign these two intermediate doublets as Ta$^{1+}$ and Ta$^{3+}$ based on their similarity to the peak locations reported in \cite{Himpsel_core_level_shift:1984}.
+
+The binding energy position of the Ta$^{1+}$ and Ta$^{3+}$ peaks indicates their charge state, but does not indicate to which chemical compound they belong. A wide survey scan of the untreated (''Native") sample did not indicate any major elements other than tantalum, oxygen, and carbon. We wanted to rule out the presence of nitrides, so we performed a fine scan on the nitrogen KLL Auger line and did not see a peak. The usual line for nitrogen, N1s, overlaps with the Ta4p$_{3/2}$ line. 
+
+To rule out that the Ta$^{1+}$ and Ta$^{3+}$ peaks are carbides, we performed an experiment on a separate film using a ThermoFisher K-Alpha X-Ray Photoelectron Spectrometer with an Ar$^+$ ion gun. We scanned the Ta4f and C1s peaks, then sputtered the film, and then scanned again. The manufacturer provided a calibrated rate curve for sputtering Ta$_2$O$_5$, from which we estimate our etch removed approximately 1 nm from the surface of the film. Before sputtering, we observed similar C1s, O1s, and Ta4f spectra to what we observed in the VEXPS dataset at similar X-ray energies. After sputtering, we observe no C1s peak, little change to the O1s peak, a smaller Ta$^{5+}$ peak, non-zero intensity between the Ta$^0$ and Ta$^{5+}$ peaks (the regions in which the Ta$^{1+}$ and Ta$^{3+}$ peaks are located). These results are shown in Figure \ref{fig:sup_milling}. We conclude that the Ta$^{1+}$ and Ta$^{3+}$ oxidation states are in the forms of amorphous Ta$_2$O and amorphous Ta$_2$O$_3$. 
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\linewidth]{sup_C1sMilling.pdf}
+  \caption{a) C1s spectra for a tantalum film before and after Ar ion milling. The carbon signal is gone after milling. b) O1s spectra for a tantalum film before and after Ar ion milling. Little change is observed. c) Ta4f spectra of tantalum film before and after Ar ion milling. Based on tool calibration, we approximately etched away 1 nm of Ta$_2$O$_5$. Some Ta$^{5+}$ signal remains after milling. The photoelectron contribution from tantalum oxidation state(s) with binding energies between the Ta$^{5+}$ and Ta$^{0}$ peaks remain. These results indicate that these intermediate binding energy compounds are not carbides.}
+  \label{fig:sup_milling}
+\end{figure}
+
+\section{Effect of piranha clean}  \label{sec:piranha}
+All samples underwent piranha cleaning (outlined in Section \ref{sec:methods}) before VEXPS measurement or further chemical processing, matching the process used in \cite{kevin_resonator}, where all devices were piranha cleaned prior to measurement or surface processing. To characterize the effect this piranha clean has on the tantalum surface, we performed XPS with a ThermoFisher K-Alpha X-Ray Photoelectron Spectrometer on a tantalum film before and immediately after a piranha clean, as well as after a subsequent 20 minute BOE treatment, matching the processing of the ``BOE" surface studied in the main text.
+
+In a wide survey scan, we observed a small Na1s peak, but this peak disappears after the piranha clean. The Ta4f spectrum shows a small increase in the intensity of the Ta$^{5{+}}$ doublet after piranha cleaning, followed by a decrease after the BOE treatment (Figure \ref{fig:sup_piranha}(a)). We also observe an increase in the O1s spectrum intensity after piranha and a decrease after the BOE treatment (Figure \ref{fig:sup_piranha}(b)). The C1s spectrum, by contrast, shows a marked decrease in intensity after piranha, and a further decrease after BOE treatment (Figure \ref{fig:sup_piranha}(c)).
+
+We attribute the Na1s peak seen in the large survey scan to contamination in the lab. Both the Ta4f and O1s spectra indicate a small increase in the oxide thickness after piranha cleaning, and the measurements taken after the 20 minute BOE treatment indicate that the oxide thickness is still larger than when the film was freshly sputtered. The intensity of the C1s peak shows the effectiveness of the piranha clean at removing hydrocarbons from the surface of the sample. The further decrease in C1s intensity after the BOE treatment may be due to the hydrocarbons lifting off as the oxide is etched. We note that the C1s peak intensity in this measurement is generally larger than those measured with VEXPS; as the carbon is entirely adventitious (Section \ref{sec:peak_assignment}), variations in the environment and time between cleaning and measurement could have a significant impact on the signal.
+
+\begin{figure}[htbp]
+\centering
+  \includegraphics[width=0.9\linewidth]{sup_piranha.pdf}
+  \caption{XPS measurements of the Ta4f (a), O1s (b), and C1s (c) spectra, taken on a tantalum sample before piranha cleaning, after piranha cleaning (``native" surface), and after both piranha cleaning and a 20 minute BOE treatment (``BOE" surface). Ta4f and O1s data are Shirley background corrected \cite{engelhard_introductory_2020} and the C1s spectra have linear backgrounds subtracted. All spectra on a sample are normalized so the total intensity under the Ta4f spectrum for that sample is unity.}
+  \label{fig:sup_piranha}
+\end{figure}
+
+\section{Effect of multiple BOE treatments}
+\label{Effect of multiple BOE treatments}
+In Figure 4 in the main text, we show that the BOE treatment affectw not just the Ta$^{+5}$, but also the Ta$^{+1}$, Ta$^{+3}$, and Ta$^{0}_\text{int}$ species, which do not appear to be exposed on the surface of the material. One hypothesis that can explain how a BOE surface treatment affects the interface species between the Ta$^0$ and Ta$^{5+}$ species is that the BOE treatment strips away all of the Ta$_2$O$_5$, interacts with the underlying layers, and then the Ta$_2$O$_5$ layer grows back when the sample is exposed to air after the treatment.
+
+To test this hypothesis, we performed VEXPS on two samples from a tantalum film. Both samples were treated two weeks before the VEXPS measurement, and one was treated again in BOE immediately before the VEXPS measurements. We denote these two samples as BOE-1x and BOE-2x, respectively. We analyzed the VEXPS data from these samples in the same manner as the native, BOE treated, and triacid treated samples in the main text. The results of this analysis are shown in Figure \ref{fig:sup_BOE2x}, and the effective thickness of the Ta$^{5+}$, Ta$^{3+}$, Ta$^{1+}$, and Ta$^{0}_\text{int}$ species are shown along with those of the native, BOE treated, and triacid treated samples from the main text in Table \ref{table:sup_multipleBOE}.
+
+The Ta$^{5+}$ thickness of the BOE-1x samples and the BOE treated sample from the main text are similar, both being approximately 0.4 nm smaller than that of the native sample. The Ta$^{5+}$ thickness of the BOE-2x sample is decreased by approximately another 0.4 nm from that of the singly BOE treated samples. As the effect of etching in BOE is roughly additive, we conclude that the BOE treatment is not completely etching away the Ta$_2$O$_5$.
+
+\begin{table}[h]
+ \caption{Effective thickness of different tantalum oxidation states as obtained from depth profile fitting for different tantalum films. All data in nm. Uncertainties are $\pm{}1\sigma{}$ confidence intervals reflecting uncertainty in the fit.}
+ \label{table:sup_multipleBOE}
+ \centering
+ \setlength{\tabcolsep}{10pt}
+  \begin{tabular}[htbp]{@{}lllll@{}}
+    \hline
+    Film & Ta$^{5+}$ & Ta$^{3+}$ & Ta$^{1+}$ & Ta$^{0}_{\text{int}}$ \\
+    \hline
+    Native (main text) & 2.257 $\pm$ 0.023 & 0.370 $\pm$ 0.016 & 0.370 $\pm$ 0.017 & 0.368 $\pm$ 0.019 \\
+    BOE (main text) & 1.853 $\pm$ 0.028 & 0.296 $\pm$ 0.022 & 0.302 $\pm$ 0.023 & 0.400 $\pm$ 0.021\\
+    Triacid (main text) & 4.826 $\pm$ 0.036 & 0.379 $\pm$ 0.016 & 0.545 $\pm$ 0.020 & 1.198 $\pm$ 0.027\\
+    BOE-1x & 1.824 $\pm$  0.017 & 0.283 $\pm$ 0.017 & 0.285 $\pm$ 0.014 & 0.382 $\pm$ 0.020\\
+    BOE-2x & 1.430 $\pm$ 0.014 & 0.294 $\pm$ 0.017 & 0.314 $\pm$ 0.017 & 0.302 $\pm$ 0.019\\
+    \hline
+
+  \end{tabular}
+\end{table}
+
+\begin{figure}
+\centering
+  \includegraphics[width=0.7\linewidth]{sup_BOE1x2xFit.pdf}
+  \caption{Depth profile fit results for the BOE-1x and BOE-2x samples. a-b) Experimental and simulated relative photoelectron intensities as a function of incident X-ray energy for BOE-1x. c) Fitted interface depth profile for BOE-1x. d-f) as a-c, but for BOE-2x.}
+  \label{fig:sup_BOE2x}
+\end{figure}
+
+\section{Pinholes measured by atomic force microscopy}
+\label{AFM_section}
+Figure 4 in the main text shows the BOE treatment affecting the Ta$^{3+}$, Ta$^{1+}$, and Ta$^{0}_\text{int}$ species, even though these species are not at the surface of the samples. Based on the results in Section \ref{Effect of multiple BOE treatments}, we do not believe that the BOE treatment is removing the Ta$^{5+}$ layer and affecting the underlying layers.
+
+We performed atomic force microscopy (AFM) on untreated films using a Bruker ICON3 Atomic Force Microscope. We performed AFM on samples from both the film as the three samples (native, BOE treated, and triacid treated) that were discussed in the main text and a film deposited with the same conditions as the film which the BOE-1x and BOE-2x samples. While untreated samples from both films show noticeably different surface morphologies, the measured surface roughnesses over 500 nm squares are significant compared to the 2.257 nm $\pm$ 0.023 nm thick Ta$^{5+}$ layer we found on our native oxide film with VEXPS (Figure \ref{fig:sup_AFM}. We hypothesize that the observed uneven surface morphologies allow the BOE solution access to the buried interface. We note that the observed surface morphologies do not qualitatively change after treatment in BOE.
+
+We must interpret our fitted depth profiles given the observed surface roughness. The XPS spectra were measured with an X-ray beam area of approximately 47 000 $\mu$m$^2$. This area is far larger than the size of features we resolve in either panel of Figure \ref{fig:sup_AFM}. We interpret our fitted depth profiles as an average species fraction through the depth, with the $x$ = 0 depth corresponding to the mean height of our samples.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{sup_AFM.pdf}
+    \caption{Atomic force microscopy (AFM) image of the height of tantalum samples. a) Untreated sample from the same film as the native, BOE treated, and triacid treated samples described in the main text with extracted root mean square roughness of 0.568 nm. b) as a), but BOE treated with extracted root mean square roughness of 0.648 nm. c) Untreated sample from an identically deposited film as the BOE-1x and BOE-2x samples described in Section \ref{Effect of multiple BOE treatments}, with extracted root mean square roughness of 0.324 nm. d) As c), but BOE treated with extracted root mean square roughness of 0.383 nm.}
+  \label{fig:sup_AFM}
+\end{figure}
+
+\section{Disclaimer}
+Certain commercial equipment, instruments, or materials are identified in this paper in order to specify the experimental procedure adequately, and do not represent an endorsement by the National Institute of Standards and Technology.
+
+
+% References
+\medskip
+
+% Use the following code if you wish to generate your bibliography with BibTeX;
+% replace the string "MSP-template" below with the name(s) of
+% the BibTeX data base(s) you want to use.
+% The resulting bibliography-output (the content of the .bbl file)
+% must be pasted back into this file before submission.
+% Please also include your BibTeX data base file(s) in your submission
+% so that we can re-run BibTeX if necessary.
+%
+\bibliographystyle{MSP}
+%\bibliography{MSP-template}
+
+\newpage
+\bibliography{references}
+
+
+\end{document}

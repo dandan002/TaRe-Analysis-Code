@@ -1,0 +1,4 @@
+target_phase,material_id,space_group,energy_above_hull,source,priority,role,notes
+TaRe,fallback,Im-3m,0.0,bundled-fallback,1,required,"TaRe bcc alloy; lattice parameter refinement target; Im-3m #229; a=3.19 Ang per Shen et al. 2014"
+Al2O3,mp-1143,R-3c,0.0,materials-project,1,required,"c-plane sapphire substrate; dominant diffraction signal; internal 2-theta calibrant"
+Ta2O5,mp-10390,Pmmm,0.0,materials-project,2,optional,"beta-Ta2O5 orthorhombic; possible crystalline oxide fraction; weight fraction unreliable without texture data"

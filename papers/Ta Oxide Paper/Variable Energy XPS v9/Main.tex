@@ -1,0 +1,243 @@
+\documentclass{WileyMSP-template}
+\usepackage{color} % for highlighting
+\usepackage{soul} % for highlighting
+\usepackage{url}
+\usepackage{mhchem}
+
+\begin{document}
+
+
+\pagestyle{fancy}
+
+
+
+\title{Chemical profiles of the oxides on tantalum in state of the art superconducting circuits}
+
+\maketitle
+
+
+\author{Russell A. McLellan$^\dag{}$}
+\author{Aveek Dutta$^\dag{}$}
+\author{Chenyu Zhou}
+\author{Yichen Jia}
+\author{Conan Weiland}
+\author{Xin Gui}
+\author{Alexander P. M. Place}
+\author{Kevin D. Crowley}
+\author{Xuan Hoang Le}
+\author{Trisha Madhavan}
+\author{Youqi Gang}
+\author{Lukas Baker}
+\author{Ashley R. Head}
+\author{Iradwikanari Waluyo}
+\author{Ruoshui Li}
+\author{Kim Kisslinger}
+\author{Adrian Hunt}
+\author{Ignace Jarrige}
+\author{Stephen A. Lyon}
+\author{Andi M. Barbour}
+\author{Robert J. Cava}
+\author{Andrew A. Houck}
+\author{Steven L. Hulbert}
+\author{Mingzhao Liu*}
+\author{Andrew L. Walter*}
+\author{Nathalie P. de Leon*}
+
+$^\dag{}$These authors contributed equally.
+
+
+
+% Dedication
+
+\dedication{}
+
+
+\begin{affiliations}
+R. A. McLellan, Dr. A. Dutta, Dr. A. P. M. Place, X. H. Le, T. Madhavan, Y. Gang, Prof. S. A. Lyon, Prof. A. A. Houck, Prof. N. P. de Leon\\
+Department of Electrical and Computer Engineering, Princeton University \\
+Princeton NJ USA\\
+Email Address: npdeleon@princeton.edu
+\medskip
+
+Dr. C. Weiland\\
+ORCID: 0000-0001-6808-1941 \\
+Materials Measurement Science Division \\ Material Measurement Laboratory\\
+National Institute of Standards and Technology \\
+Gaithersburg MD USA
+
+\medskip
+
+Dr. X. Gui, Prof. R. J. Cava \\
+Department of Chemistry, Princeton University \\
+Princeton NJ USA\\
+\medskip
+
+K. D. Crowley \\
+Department of Physics, Princeton University \\
+Princeton NJ USA\\
+\medskip
+
+Dr. I. Waluyo, Dr. A. Hunt, Dr. Ignace Jarrige, Dr. A. M. Barbour, Dr. S. L. Hulbert, Dr. A. L. Walter\\
+National Synchrotron Light Source II\\
+Brookhaven National Laboratory\\
+Upton, NY, USA\\
+Email Address: awalter@bnl.gov
+\medskip
+
+Dr. C. Zhou, Dr. Y. Jia, L. Baker, Dr. A. R. Head, R. Li, K. Kisslinger, Dr. M. Liu\\
+Center for Functional Nanomaterials\\
+Brookhaven National Laboratory\\
+Bldg. 735\\
+P.O. Box 5000\\
+Upton, NY 11973-5000\\
+Email Address: mzliu@bnl.gov
+\end{affiliations}
+
+
+\keywords{tantalum, X-ray photoelectron spectroscopy, oxide, dielectric loss, superconducting thin films, qubits}
+
+\newpage
+\begin{abstract}
+
+% Please insert your abstract here
+Over the past decades, superconducting qubits have emerged as one of the leading hardware platforms for realizing a quantum processor. Consequently, researchers have made significant effort to understand the loss channels that limit the coherence times of superconducting qubits. A major source of loss has been attributed to two level systems that are present at the material interfaces. We recently showed that replacing the metal in the capacitor of a transmon with tantalum yields record relaxation and coherence times for superconducting qubits, motivating a detailed study of the tantalum surface. In this work, we study the chemical profile of the surface of tantalum films grown on c-plane sapphire using variable energy X-ray photoelectron spectroscopy (VEXPS). We identify the different oxidation states of tantalum that are present in the native oxide resulting from exposure to air, and we measure their distribution through the depth of the film. Furthermore, we show how the volume and depth distribution of these tantalum oxidation states can be altered by various chemical treatments. By correlating these measurements with detailed measurements of quantum devices, we can improve our understanding of the microscopic device losses.
+
+\end{abstract}
+
+\setlength{\parindent}{20pt}
+
+\section{Introduction}
+
+Superconducting qubits are the basis of many efforts to build large scale quantum computers, and have enabled key demonstrations of quantum algorithms \cite{kandala_hardware-efficient_2017}, quantum error correction \cite{corcoles_demonstration_2015, gong_experimental_2022, kelly_state_2015, reed_realization_2012, sivak_real-time_2022}, quantum many body physics \cite{mi_time-crystalline_2022, satzinger_realizing_2021, andersen_observation_2022, mi_noise-resilient_2022}, and quantum advantage in performing specific tasks \cite{arute_quantum_2019}. Despite this activity, little progress has been made in identifying and addressing the microscopic source of loss and noise in the constituent materials. The lifetimes of current 2D transmons are believed to be limited by microwave dielectric losses \cite{place_new_2021, wang_towards_2022}. Recent work has measured the dielectric loss tangent of high-purity bulk sapphire as $15(5)\times 10^{-9}$ at qubit operating conditions \cite{read_precision_2022}. This loss tangent would result in a qubit lifetime of several milliseconds if it were the only source of dielectric loss, suggesting that losses are dominated by uncontrolled defects at surfaces and interfaces or by material contaminants \cite{wang_surface_2015}. 
+
+We have recently demonstrated that tantalum (Ta) based planar transmon qubits can exhibit record lifetimes over 0.3 ms and quality factors (Q) over 7 million \cite{place_new_2021}, exceeding the prior established record of niobium (Nb) and aluminum (Al) based planar transmon qubits by a factor of three. Other groups have recently realized Ta qubits with Q over 10 million and resonators with low power Q over 4 million \cite{wang_towards_2022, lozano_manufacturing_2022}. We hypothesize that one key advantage of Ta is its robust, stochiometric oxide, which is resistant to a wide range of aggressive chemical processes \cite{face_high_1986, face_nucleation_1987}. These observations motivate a careful study of the oxide species at the surface of Ta, as the amorphous oxide layer at the surface is a plausible source of dielectric loss arising from two-level systems \cite{muller_towards_2019, de_leon_materials_2021}. We have recently reported measurements on superconducting resonators showing that two-level systems at material interfaces are the dominant source of dielectric loss for tantalum devices, and that some of these two-level system defects reside in the surface oxides of tantalum \cite{kevin_resonator}. In that work, we estimated that the oxide layer is responsible for around half of the surface-related losses in state-of-the-art devices by using detailed comparisons between devices treated with different acids. In this work, we investigate the nature of the tantalum oxide resulting from these chemical treatments.
+
+In this study, we use variable energy X-ray photoelectron spectroscopy (VEXPS) to characterize the surface of Ta thin films employed in state-of-the-art superconducting circuits, with the aim of identifying possible microscopic sources of loss and noise. We measure and analyze Ta4f ionizations with different peaks across a range of incident X-ray energies to vary the sampling depth and use the combined dataset to build a depth profile of the different oxide stoichiometries. We show that the Ta surface is dominated by the fully oxidized \ce{Ta2O5}, but that between the \ce{Ta2O5} surface layer and the bulk metal, suboxide species containing Ta$^{3+}$ and Ta$^{1+}$ are present. Compared to similar measurements of the oxides of Nb \cite{Anjali_Nb:2021}, the Ta oxide layer is thinner and the interfaces are more abrupt. We apply our measurement and analysis technique to films treated with different acid processes and show that it is possible to controllably grow and shrink the Ta oxide layers.
+
+
+\section{Experiment}
+
+For all experiments, we use 200 nm thick $\alpha$-Ta films grown on 500 $\mu$m thick c-plane sapphire substrates by DC magnetron sputtering \cite{place_new_2021, kevin_resonator}. A typical tantalum film is covered by a thin layer of amorphous oxide, as shown by its cross-sectional scanning transmission electron microscope (STEM) image (Figure \ref{fig1}a). All samples studied throughout the main text of this paper are from the same deposition, which has a body-centered cubic (bcc) crystal structure ($\alpha$ phase) with a (111) out-of-plane orientation. All samples are cleaned in a 2:1 H$_2$SO$_4$:H$_2$O$_2$ piranha bath for 20 minutes (Section S1 in the Supporting Information).
+
+We use X-ray photoelectron spectroscopy (XPS) to study the oxide at the surface of Ta (Figure \ref{fig1}b). In the 20 eV to 30 eV binding energy range, we observe two prominent pairs of peaks associated with Ta4f core electron ionization. Each oxidation state of Ta appears as a doublet attributed to Ta4f$_{7/2}$ and Ta4f$_{5/2}$ because of significant spin-orbit coupling \cite{Moulder:1992}. The pair of peaks at 22 eV and 24 eV have been previously assigned to metallic Ta$^{0}$, while the pair at 27 eV and 29 eV are assigned to Ta$^{5+}$, here in the form of Ta$_2$O$_5$. The full width half maximum linewidth of the metallic peaks (approximately 0.5 eV) is narrower than those of the oxide (approximately 1.0 eV), likely arising from a higher degree of disorder in the oxide, which is amorphous (Figure \ref{fig1}a). We can also observe shoulder peaks on the higher binding energy side of the Ta$^{0}$ peaks. In addition to these resolvable peaks, there is a broad baseline in the binding energy range between the Ta$^{0}$ and Ta$^{5+}$ peaks, arising from intermediate oxidation states of Ta. In general, a single XPS scan is insufficient to constrain the number of peaks and their associated linewidths, and it does not provide information on how the different oxidation states of tantalum are distributed through the depth of the film.
+
+In order to disentangle the different oxidation states and study their spatial distribution, we perform VEXPS using 17 different incident photon energies in the range of 630 eV to 6000 eV. At lower photon energies, photoelectrons have lower kinetic energy and shorter inelastic mean free paths (IMFP); therefore, lower photon energies are more surface sensitive \cite{Moulder:1992}. The kinetic energy and the IMFP increase with increasing photon energy; thus, the XPS measurements become more bulk sensitive (Figure \ref{fig1}c). We enhance the surface sensitivity of the low incident energy scans by using grazing incidence, which further boosts the depth sampling contrast between photon energies due to the attenuation of X-ray photons through the material. By studying the relative fractions of photoelectrons collected from different oxidation states at different incident photon energies, we may infer the depth distribution of the various tantalum oxidation states.
+
+\section{Results and Discussion}
+
+To quantify the relative abundance of each oxide species, we fit the full dataset of VEXPS spectra with different energies simultaneously. Fitting all spectra at once constrains the relative peak positions, relative peak intensities, peak widths, and skewnesses, which reduces the number of free fit parameters and increases our confidence in the fitted photoelectron intensities. In addition to the Ta$^{5+}$ and Ta$^{0}$ doublets, another three doublets of lower intensity are required to satisfactorily fit the spectra for all photon energies. These include one doublet at approximately 0.4 eV higher binding energy than the Ta$^0$ doublet, which is most prominent at intermediate energies, and two sets of doublets that cannot be individually resolved, located between 21 eV and 22 eV (Ta4f$_{7/2}$) and between 24 eV and 26 eV (Ta4f$_{5/2}$). 
+
+The Ta$^0$ peaks and their shoulder peaks offset by approximately 0.4 eV have similar linewidths, indicating that they both arise from metallic states, so we fit them both with skewed Voigt profiles \cite{sherwood_use_2019}. All other peaks that exhibit much broader linewidths are fit with Gaussian profiles \cite{sherwood_use_2019}. A Shirley background correction is applied to all data prior to XPS peak fitting \cite{engelhard_introductory_2020}, and the data are normalized so that the total intensity under the curve is unity. Lastly, we account for the O2s photoelectron emission that overlaps with Ta4f peaks \cite{Moulder:1992} by measuring the O1s peak. We use the ratio of the photo-ionization cross-sections for the O1s and O2s photoelectrons \cite{O2s_cross_section:2022} to estimate the photoelectron intensity of the O2s peak, neglecting the impact of the kinetic energy difference between O1s and O2s photoelectrons. We find the contribution from the O2s peak to be only a few percent of the total photoelectron intensity for all energies. The background corrected spectra and the results of our peak fitting algorithm are shown in Figure \ref{fig2} for three different photon energies. The Ta$^0$ peak intensities increase with increasing photon energy, while the Ta$^{5+}$ peak intensities decrease, as expected for an oxide layer at the surface. More information on the fitting procedure, as well as the data and fits for all spectra, can be found in Section S3 in the Supporting Information.
+
+We identify the doublet shifted by 0.4 eV from the Ta$^0$ doublet as the layer of tantalum metal closest to the metal-oxide interface, as described in \cite{Himpsel_core_level_shift:1984}. The differing coordination number of tantalum atoms in this layer results in a higher binding energy. We denote this interface species as Ta$^0_{\text{int}}$. We identify the two remaining doublets between 22 eV and 26 eV as Ta$^{1+}$ and Ta$^{3+}$ species based on their locations relative to the Ta$^0$ and Ta$^{5+}$ peaks \cite{Himpsel_core_level_shift:1984}. These additional oxidation states could arise from suboxides of tantalum or other materials, such as tantalum nitride or tantalum carbide. In a wide XPS survey scan we detect no significant atomic species other than tantalum, oxygen, and carbon, thus excluding the presence of nitrides. In a different sample from the same film, we sputtered the top layer with an in-situ argon ion mill, and found that when the C1s peak was removed, the O1s spectrum was largely unchanged, and the Ta$^{1+}$ and Ta$^{3+}$ peaks remained (Section S5 in the Supporting Information). Thus the carbon is present only as adventitious carbon on the top surface of the film, and the Ta$^{1+}$ and Ta$^{3+}$ species arise from suboxides. We therefore assign the Ta$^{1+}$ and Ta$^{3+}$ species as amorphous Ta$_2$O and Ta$_2$O$_3$, respectively.
+
+We obtain a depth dependent chemical profile of the oxide by modelling the dependence of the photoelectron intensity fraction of each species on the incident photon energy. The sample is modeled as a multi-component thin film with five distinct species. Of these five species, the bottom species, Ta$^0$, is assumed to have thickness beyond the sampling depth of our measurements, which we model as being infinite. We assume that the sample composition varies only along the depth $x$, and that it is homogeneous across the plane. The five species are spatially mixed through the depth, described by a set of depth-dependent volume fractions, $\{F_n(x)\}$, with $n$ indexing the 5 different species. The volume fractions are constrained by the sum rule of $\sum_{n=1}^5 F_n(x) = 1$ and a limiting case for the tantalum metal substrate, $\lim_{x \rightarrow\infty} F_{\text{Ta}^0}(x) = 1$.
+
+At each photon energy $E_{ph}$, the intensity fraction, $W_n$, of photoelectrons from species $n$ is obtained by normalizing its photoelectron flux $A_n(E_{ph})$ against the total flux, i.e.,
+\begin{equation}\label{eq:W}
+W_n(E_{ph}) = \frac{ A_n(E_{ph})}{\sum_{m=1}^5A_m(E_{ph})}.
+\end{equation}
+The photoelectron flux $A_n$ can be computed for each given set of volume fractions $\{F_n(x)\}$, by considering the attenuation of both the X-rays and the photoelectrons along their respective travel paths:
+\begin{equation} \label{eq:A_n model}
+    A_n(E_{ph}) = \gamma \eta \rho_n \int_0^\infty F_n(x) 
+    \exp \bigg[-\int_0^x \frac{\mu(E_{ph})}{\rho_0} \frac{\rho(s)}{\sin\Theta_{ph}} ds - \frac{x}{\lambda_{el}(E_{el})\sin\Theta_{el}}\bigg] dx,
+\end{equation}
+where $\gamma$ is the photoelectron collection efficiency; $\eta$ is the photoelectron yield; $\rho_n$ is the density of species $n$; $\rho(s) = \sum\limits_nF_n(s)\rho_n$ is the total density at depth $s$; $\mu/\rho_0$ is the X-ray mass attenuation coefficient; $\Theta_{ph}$ is the angle between the X-ray beam and the sample surface; $\Theta_{el}$ is the angle between the electron detector and the sample surface; $\lambda_{el}$ is the effective electron attenuation length; and $E_{el} = E_{ph}-E_b$ is the kinetic energy of the photoelectron, where $E_b$ is the binding energy of the core level. Derivation of Equation \ref{eq:A_n model} is detailed in Section S4.2 in the Supporting Information. Further discussion can be found in \cite{jablonski_effective_2020}. 
+
+Several parameters in Equation \ref{eq:A_n model} are needed to properly evaluate the intensity fraction $W_n$ in Equation \ref{eq:W}. Our experimental configuration has $\Theta_{el} = 80\degree$ and $\Theta_{ph}=6\degree$ (=$10\degree$) for $E_{ph}<2000$ eV ($\geq2000$ eV). The values of  photoelectron yield $\eta$ and photoelectron collection efficiency $\gamma$ are assumed to be independent of species, so that they cancel in computing $W_n$. The values for $\mu(E_{ph})/\rho_0$ are obtained from those tabulated in \cite{X_ray_attenuation_Henke:1993}. The effective electron attenuation length $\lambda_{el}$ is assumed to be independent of the tantalum species and computed using the empirical relation \cite{EAL_albedo:2020}
+\begin{equation}\label{eq:EAL}
+\lambda_{el}(E_{el}) = \lambda_{im}(E_{el})[1-0.836\omega(E_{el})],
+\end{equation}
+as a function of electron kinetic energy $E_{el}$, where $\lambda_{im}$ is the inelastic mean free path of electrons in tantalum and $\omega$ is the single-scattering albedo of tantalum, both tabulated versus the electron kinetic energy \cite{IMFP_tabulated:2015,EAL_albedo:2020}. To further simplify the computation, it is noted that $E_b$ in Equation \ref{eq:A_n model} is well approximated by the average binding energy of all tantalum species (24 eV), because $E_b$ does not vary appreciably and $E_{ph}\gg E_b$. As such, we use $E_{el}\equiv E_{ph}-24$ eV (neglecting work function differences). 
+
+In principle, the volume fractions $\{F_n(x)\}$ can be obtained by fitting $W_n(E_{ph})$ specified by Equation \ref{eq:W} and Equation \ref{eq:A_n model} to the experimental photoelectron intensity fractions. In practice, a parameterization of $\{F_n(x)\}$ is needed to limit the number of independent fitting parameters and to avoid overfitting. $\{F_n(x)\}$ are parameterized using a basis set of smooth, analytic functions that are normalized by themselves, i.e., $\sum_{n=1}^5 F_n(x) = 1$ for all depth $x$ (Section S4.3 in the Supporting Information).
+
+For a film that has only undergone piranha cleaning (``native") film, the photoelectron intensity fraction of Ta$^0$ increases monotonically and that of Ta$^{5+}$ decreases monotonically with photon energy (Figure \ref{fig3}a). The photoelectron intensity fractions of Ta$^{1+}$, Ta$^{3+}$, and Ta$^0_{\text{int}}$ initially increase with photon energy, but then peak and slowly decrease (Figure \ref{fig3}b). These observations indicate that the Ta$^0$ species is located in the bulk, the Ta$^{5+}$ species is located at the surface, and the other species are located at an intermediate depth. The resulting depth profile shows a surface layer of Ta$^{5+}$ which extends approximately 2 nm into the depth, an approximately 1 nm to 2 nm thick region with overlapping Ta$^{3+}$, Ta$^{1+}$, and Ta$^{0}_{\text{int}}$ profiles, and a bulk layer of Ta$^0$ (Figure \ref{fig4}a).
+
+Quantitative depth profiling allows us to make detailed comparisons between different films. In addition to measuring the native tantalum oxide after our sputter deposition process, we also measure the tantalum oxide after two different surface treatments. The first is immersing the film for 20 minutes in 10:1 buffered oxide etch (BOE) to etch the oxide, and the second is refluxing the film in 1:1:1 nitric, perchloric, and sulfuric acids for two hours (``triacid") to grow the oxide (Section S2 of Supporting Information). The results of the depth profile analysis for each case are shown in Figure \ref{fig4}b-c with the fitted photoelectron intensities shown in Section S4.6 in the Supporting Information. We also extract an effective thickness of each tantalum oxide species and the tantalum interface species by integrating the area under each curve. The effective thicknesses for the native, BOE treated, and triacid treated films are tabulated in Table \ref{table1}.
+
+The BOE treated film exhibits statistically significantly smaller effective thicknesses than the native film for the Ta$^{5+}$, Ta$^{3+}$, and Ta$^{1+}$ species (approximately 20$\%$ lower in all cases), while the Ta$^0_{\text{int}}$ layer effective thickness does not show a significant difference (Table \ref{table1} and Figure \ref{fig4}). The triacid treated film shows significantly larger thicknesses for all four species compared to either the native or BOE treated film. Furthermore, the BOE treated film has a narrower distribution of the Ta$^{1+}$, Ta$^{3+}$, and Ta$^0_{\text{int}}$ species compared to the native film while the triacid film has significantly broader distributions of those three species.
+
+Based on our measured etch rate, the BOE treatment does not etch away the entire Ta$^{5+}$ layer (Section S6 in the Supporting Information), and the mechanism for BOE interaction with the buried interface is unclear. Using atomic force microscopy (AFM) on the film profiled in Figure \ref{fig4}a, we observe a root mean square surface roughness of 0.568 nm with a minimum observed depth of 1.8 nm across a 500 nm square area (Supporting Information Section S7). These two values are a significant fraction of the 2.257 nm $\pm$ 0.023 nm thick Ta$^{5+}$ layer we found for our native oxide film. We have also observed small pinholes of similar depth variation in samples with smoother morphology, which exhibit the same chemical profile in VEXPS (Section S7 in the Supporting Information). We hypothesize that surface roughness and pinholes allow access to the buried interface. The X-ray spot size in our VEXPS experiments was an ellipse with major and minor diameters approximately 300 $\mu$m and 50 $\mu$m, which is much larger than the surface roughness features we observe. Therefore the VEXPS measurements reflect an average over many of the surface roughness features.
+
+We can use VEXPS data to elucidate potential sources of microwave loss. In \cite{kevin_resonator}, using data from native, BOE treated, and triacid treated samples, we estimated that if the microwave dielectric loss tangent of the tantalum oxide scales with the thickness of the oxide layer, then contributions to the microwave dielectric loss tangents from the tantalum oxide and adventitious carbon species are comparable. However, the chemical profiles of the native, BOE treated, and triacid treated samples show that the thicknesses and distributions of each of the Ta$^{5+}$, Ta$^{3+}$, Ta$^{1+}$, and Ta$^{0}_\text{int}$ species vary with surface treatments. Therefore changes in the dielectric loss tangent could arise from changes to any combination of the interface species. For example, based on these detailed chemical profiles, an alternative plausible hypothesis for the observations in \cite{kevin_resonator} would be that the dielectric loss arises entirely from the Ta$^{3+}$ layer rather than separate contributions of the oxide and adventitious hydrocarbons. Independently varying the thickness and distribution of the Ta$^{5+}$, Ta$^{3+}$, Ta$^{1+}$, and Ta$^{0}_\text{int}$ over many more surface compositions than those measured in \cite{kevin_resonator} could be used to determine a precise, atomistic model for dielectric loss.
+
+In addition to comparing depth profiles across differently treated tantalum films, we can compare the depth profile of the native tantalum film (Figure \ref{fig4}a) to a similar depth profile from a niobium surface presented in \cite{Anjali_Nb:2021}, in which depth profiles of various niobium films were measured and compared to coherence times of qubits measured on each film. The total oxide layer thickness is appreciably smaller in tantalum versus niobium, and the tantalum suboxide species are more confined to the oxide-metal interface. These differences suggest that the comparatively thinner oxide and more confined suboxide layer of tantalum may be one reason why qubits made out of tantalum films show longer coherence times than those made out of niobium films. This observation is consistent with recent measurements of niobium resonators with thinner oxide and correspondingly higher quality factors \cite{verjauw_investigation_2021}.
+
+\section{Conclusion}
+
+Variable energy X-ray photoelectron spectroscopy and chemical profiling reveals that in addition to the dominant Ta$^{5+}$ oxide and previously known Ta$^{0}_{\text{int}}$ species, there also exist two tantalum suboxide species that we have identified as Ta$^{1+}$ and Ta$^{3+}$. These two suboxides are localized in depth at the interface between the Ta$^{5+}$ layer and the bulk Ta$^{0}$. We observe that the tantalum metal-air interface contains a smaller fraction of minority species and has a thinner majority oxide species than a corresponding Nb interface \cite{Anjali_Nb:2021}. Our measurements on BOE treated and triacid treated films show that the tantalum oxide is surprisingly robust, but can be altered slightly. Correlating these measurements with systematic measurements of quantum devices based on Ta films using many more surface treatments would elucidate the quantitative contributions of various oxide and interface species to dielectric loss, guiding future work on device optimization. More broadly, our method of data collection and analysis can provide a foundation for future studies of the interface layers of tantalum thin films or thin films of other metals to understand the structure of those interfaces and effects of surface treatments.
+
+
+\medskip
+\textbf{Supporting Information} \par 
+Supporting Information is available from the Wiley Online Library or from the author.
+
+
+
+% Acknowledgements
+\medskip
+\textbf{Acknowledgements} \par %delete if not applicable))
+The authors acknowledge Mayer Feldman for support with tantalum depositions and Esha Umbarkar for sample preparation. We also acknowledge Denis Potapenko for support with the XPS system in the Princeton Imaging and Analysis Center.
+
+This material is based upon work primarily supported by the U.S. Department of Energy, Office of Science, National Quantum Information Science Research Centers, Co-design Center for Quantum Advantage (C$^2$QA) under contract number DE-SC0012704. Film characterization and processing was partly supported by the National Science Foundation (RAISE DMR-1839199). This research used resources of the Spectroscopy Soft and Tender Beamlines (SST-1 and SST-2) of the National Synchrotron Light Source II and the Electron Microscopy and Materials Synthesis \& Characterization facilities of the Center for Functional Nanomaterials (CFN), U.S. Department of Energy Office of Science Facilities at Brookhaven National Laboratory under contract no. DE-SC0012704. The authors acknowledge the use of Princeton’s Imaging and Analysis Center (IAC), which is partially supported by the Princeton Center for Complex Materials (PCCM), a National Science Foundation (NSF) Materials Research Science and Engineering Center (MRSEC; DMR-2011750). Some chemical treatments were performed in the Princeton Institute for the Science and Technology of Materials (PRISM) cleanroom. This project was supported in part by the U.S. Department of Energy, Office of Science, Office of Workforce Development for Teachers and Scientists (WDTS) under the Science Undergraduate Laboratory Internships Program (SULI).
+
+\begin{figure}[h]
+\centering
+  \includegraphics[width=5in]{Fig1.pdf}
+  \caption{a) High angle annular dark field scanning transmission electron microscope image of the cross-section of a tantalum film on sapphire. The tantalum film has a BCC crystal structure and was grown in the (111) orientation on a c-plane sapphire substrate. An amorphous oxide layer can be seen on top of the tantalum at the tantalum air interface. b) Experimental results of the tantalum binding energy spectrum obtained from X-ray photoelectron spectroscopy (XPS) performed using 760 eV incident photon energy. Each oxidation state of tantalum contributes a pair of peaks to the spectrum due to spin-orbit splitting. At the highest binding energy (26 eV to 30 eV), there is a pair of peaks corresponding to the Ta$^{5+}$ state. At the lowest binding energy, we see a pair of sharp asymmetric peaks corresponding to metallic tantalum (21 eV to 25 eV). c) Schematic explaining the physics behind variable energy X-ray photoelectron spectroscopy (VEXPS). The red and blue dots correspond to photoelectrons excited from a surface oxidation state and bulk oxidation state of the tantalum films respectively. When low energy X-rays are incident on the film surface, photoelectrons are excited with low kinetic energy (depicted by a small tail on the dots). These low energy photoelectrons have a shorter mean free path so that only those emitted from the surface species (colored red) will exit the material and impinge on the detector. When high energy X-rays are incident on the film surface, photoelectrons with high kinetic energy are excited (depicted by a longer tail on the dots). These higher energy photoelectrons have comparatively longer mean free paths so that electrons from the bulk of the film will exit the material alongside electrons from the surface. In our experiment, the angle between the surface and the incident X-rays varies between 6\degree{} and 10\degree{}; the X-rays in this image are shown at a steeper angle for legibility.}
+  \label{fig1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+  %\includegraphics[width=3.5in]{Fig2.pdf}
+  \includegraphics[width=5 in]{Fig2.pdf}
+  %Insert Figure 2 as a 2-column figure
+  \caption{Shirley background corrected XPS spectra of Ta4f binding energy obtained at three different incident photon energies. Left panel: with 760 eV X-ray photons, the Ta$^{5+}$ peaks dominate over the Ta$^{0}$ peaks. Middle panel: at 2200 eV photon energy, there is almost equal contribution of photoelectrons from Ta$^{0}$ and Ta$^{5+}$. Right panel: At 5000 eV photon energy, the dominant photoelectron contribution is coming from Ta$^{0}$. In all three plots there is non-zero intensity between the Ta$^{5+}$ and metallic tantalum peaks, indicating minority tantalum oxidation states. The complete set of data and fits corresponding to all 16 incident X-ray energies is shown in Section S3.3 in the Supporting Information. The data are fit with Gaussian profiles for the Ta$^{5+}$, Ta$^{3+}$, and Ta$^{1+}$ species, and skewed Voigt profiles for the Ta$^{0}$ and Ta$^{0}_{\text{int}}$. Included in the fit is also a Gaussian profile corresponding to the O2s peak; the amplitude of this peak is fixed to 5\% of the measured O1s peak intensity.}
+  \label{fig2}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+  %\includegraphics[width=3.5in]{fig3.pdf}
+  \includegraphics[width=5 in]{Fig3.pdf}
+  %Insert Figure 3 as a 2-column figure
+  \caption{a) Relative photoelectron fraction for the different tantalum oxidation states as a function of incident X-ray photon energy. The dots are experimental data extracted from fitting Ta4f spectra at different incident X-ray energies. Solid lines represent an iterative fit to the data using Equation \ref{eq:W} and Equation \ref{eq:A_n model}, corresponding to the expected intensity fractions from the depth profile shown in Figure \ref{fig4}a. b) Close up view of relative photoelectron fraction contribution from the Ta$^{3+}$, Ta$^{1+}$, and Ta$^{0}_{\text{int}}$. The rise, plateau, and fall of the photoelectron intensity fractions with X-ray energy indicate that these three species are localized at a buried interface.}
+  \label{fig3}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+  %\includegraphics[width=2.5in]{fig4.pdf}
+  \includegraphics[width=3.375 in]{Fig4.pdf}
+  %Insert Figure 4 as a 1-column figure
+  \caption{Extracted chemical profiles for three different samples: a) native b) BOE treated and c) triacid treated. Fitted photoelectron intensity fractions are shown in Section S4.6 in the Supporting Information.}
+  \label{fig4}
+\end{figure}
+
+\begin{table}[h]
+ \caption{Effective thickness of different tantalum oxidation states as obtained from depth profile fitting for different tantalum films. All data in nm. Uncertainties are $\pm{}1\sigma{}$ confidence intervals reflecting uncertainty in our fit.}
+ \label{table1}
+ \centering
+ \setlength{\tabcolsep}{10pt}
+  \begin{tabular}[htbp]{@{}lllll@{}}
+    \hline
+    Film & Ta$^{5+}$ & Ta$^{3+}$ & Ta$^{1+}$ & Ta$^{0}_{\text{int}}$ \\
+    \hline
+    Native & 2.257 $\pm$ 0.023 & 0.370 $\pm$ 0.016 & 0.370 $\pm$ 0.017 & 0.368 $\pm$ 0.019\\
+    Ta treated in 10:1 BOE &  1.853 $\pm$ 0.028 & 0.296 $\pm$ 0.022 & 0.302 $\pm$ 0.023 & 0.400 $\pm$ 0.021\\
+    Ta treated in triacid & 4.826 $\pm$ 0.036 & 0.379 $\pm$ 0.016 & 0.545 $\pm$ 0.020 & 1.198 $\pm$ 0.027\\
+    \hline
+    
+  \end{tabular}
+\end{table}
+
+\pagebreak
+
+\bibliographystyle{MSP}
+%\bibliography{MSP-template}
+\bibliography{references}
+
+
+\end{document}
