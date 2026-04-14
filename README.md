@@ -12,6 +12,6 @@ In detail:
 Data should be put in tare_analysis/data exported as an .xlsx file from any ThermoFisher K-Alpha or Nexsa series XPS machine; all analysis is orchestrated from the main.py file for surface scans, etch_main.py for etched scans.
 
 ## Disclosures
-While most of the code was written and/or formatted by hand, figure styling and python tests were written with the assistance of Anthropic's Claude Sonnet 4.5/4.6 models. Only XRD_analysis was written through heavy tool usage during planning and execution, but results were omitted in the final research in favor of analysis done through provided tools.
+While most of the code was written and/or formatted by hand, figure styling and python tests were written with the assistance of Anthropic's Claude Sonnet 4.5/4.6 models. Generative suggestions were also taken into account while writing XRD_Analysis, but results and the entire codebase were omitted in the final research in favor of analysis done through provided tools. No GenAI or similar tool was used during the writing of the actual document.
 
 The author acknowledges the use of the Imaging and Analysis Center (IAC) operated by the Princeton Materials Institute at Princeton University, which is supported in part by the Princeton Center for Complex Materials (PCCM), a National Science Foundation (NSF) Materials Research Science and Engineering Center (MRSEC; DMR-2011750).
